@@ -78,7 +78,7 @@ with st.spinner("Fetching Datasets..."):
     gdrive_link = "https://drive.google.com/uc?id=1mgKajVm3IpFw2a52d_j5VXz5v0K0F9sX"  # Replace with the actual file ID
     folder_name = "resource"
     download_path = "./downloads"  # Path to store the zip file
-    extract_path = "./resource"  # Path to extract the folder
+    extract_path = "./resource/resource"  # Path to extract the folder
 
     # Ensure the download path exists
     if not os.path.exists(download_path):
