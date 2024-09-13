@@ -89,7 +89,7 @@ with a:
         st.subheader("Available Plots")
         st.write("---")
         with st.expander("% of Resistance over Years"):
-            org = st.selectbox("Choose Organism",["Not Chosen","Acinetobacter baumannii", "Enterobacter cloacae",
+            org = st.selectbox("Choose Organism",["Not Chosen","Acinetobacter baumannii", "Enterobacter spp",
             "Escherichia coli", "Enterococcus faecium", "Klebsiella pneumoniae",
             "Pseudomonas aeruginosa", "Staphylococcus aureus"
             ],key=1)
@@ -102,7 +102,7 @@ with a:
                     st.subheader(f"% of Resistance Over the Years - Age Group: {age_group}")
                     st.plotly_chart(fig)
         with st.expander("% of Resistance over Country"):
-            org = st.selectbox("Choose Organism",["Not Chosen","Acinetobacter baumannii", "Enterobacter cloacae",
+            org = st.selectbox("Choose Organism",["Not Chosen","Acinetobacter baumannii", "Enterobacter spp",
             "Escherichia coli", "Enterococcus faecium", "Klebsiella pneumoniae",
             "Pseudomonas aeruginosa", "Staphylococcus aureus"
             ],key=2)
@@ -118,7 +118,7 @@ with a:
 
 
         with st.expander("Antibiotic Resistant Profile for Organism"):
-            org = st.selectbox("Choose Organism",["Not Chosen","Acinetobacter baumannii", "Enterobacter cloacae",
+            org = st.selectbox("Choose Organism",["Not Chosen","Acinetobacter baumannii", "Enterobacter spp",
             "Escherichia coli", "Enterococcus faecium", "Klebsiella pneumoniae",
             "Pseudomonas aeruginosa", "Staphylococcus aureus"
             ],key=3)
@@ -130,7 +130,7 @@ with a:
                         st.pyplot(fig)
         
         with st.expander("Country Wise Resistant Profile"):
-            org = st.selectbox("Choose Organism",["Not Chosen","Acinetobacter baumannii", "Enterobacter cloacae",
+            org = st.selectbox("Choose Organism",["Not Chosen","Acinetobacter baumannii", "Enterobacter spp",
             "Escherichia coli", "Enterococcus faecium", "Klebsiella pneumoniae",
             "Pseudomonas aeruginosa", "Staphylococcus aureus"
             ],key=4)
