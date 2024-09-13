@@ -24,7 +24,7 @@ mapping = {
         "Acinetobacter baumannii" : "./Final_AB.csv",
         "Pseudomonas aeruginosa" : "./Final_PA.csv",
         "Staphylococcus aureus" : ["./Final_SA1.csv","./Final_SA2.csv"],
-        "Enterobacter cloacae" : "./Final_EB.csv"
+        "Enterobacter spp" : "./Final_EB.csv"
     }
 
 def plot_antibiotic_resistance(organism):
