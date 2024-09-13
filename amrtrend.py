@@ -72,16 +72,16 @@ st.markdown(navbar_html, unsafe_allow_html=True)
 
 a,b = st.columns([0.3,0.7])
 
-with st.spinner("Fetching Datasets..."):
-    import getresource as gr
-    import os
-    gdrive_link = "https://drive.google.com/uc?id=1mgKajVm3IpFw2a52d_j5VXz5v0K0F9sX"  # Replace with the actual file ID
-    folder_name = "resource"
-    download_path = "./downloads"  # Path to store the zip file
-    extract_path = "./resource/resource"  # Path to extract the folder
-    gr.download_and_extract_with_gdown(gdrive_link, folder_name, download_path, extract_path)
-with b:
-    st.write(os.listdir("./resource/resource/Final Data/Ecoli data"))
+# with st.spinner("Fetching Datasets..."):
+#     import getresource as gr
+#     import os
+#     gdrive_link = "https://drive.google.com/uc?id=1mgKajVm3IpFw2a52d_j5VXz5v0K0F9sX"  # Replace with the actual file ID
+#     folder_name = "resource"
+#     download_path = "./downloads"  # Path to store the zip file
+#     extract_path = "./resource/resource"  # Path to extract the folder
+#     gr.download_and_extract_with_gdown(gdrive_link, folder_name, download_path, extract_path)
+# with b:
+#     st.write(os.listdir("./resource/resource/Final Data/Ecoli data"))
 
 with a:
     with st.container(border=True):
