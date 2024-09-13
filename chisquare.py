@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 #     gr.download_and_extract_with_gdown(gdrive_link, folder_name, download_path, extract_path)
 
 mapping = {
-        "Escherichia coli" : ["./Final_Ecoli1.csv",".Final_Ecoli2.csv"],
+        "Escherichia coli" : ["./Final_Ecoli1.csv","./Final_Ecoli2.csv"],
         "Enterococcus faecium" : "./Final_EF.csv",
         "Klebsiella pneumoniae" : "./Final_KP.csv",
         "Acinetobacter baumannii" : "./Final_AB.csv",
