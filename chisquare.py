@@ -1,30 +1,30 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-import getresource as gr
-import os
-gdrive_link = "https://drive.google.com/uc?id=1mgKajVm3IpFw2a52d_j5VXz5v0K0F9sX"  # Replace with the actual file ID
-folder_name = "resource"
-download_path = "./downloads"  # Path to store the zip file
-extract_path = "./resource"  # Path to extract the folder
+# import getresource as gr
+# import os
+# gdrive_link = "https://drive.google.com/uc?id=1mgKajVm3IpFw2a52d_j5VXz5v0K0F9sX"  # Replace with the actual file ID
+# folder_name = "resource"
+# download_path = "./downloads"  # Path to store the zip file
+# extract_path = "./resource"  # Path to extract the folder
 
-# Ensure the download path exists
-if not os.path.exists(download_path):
-    os.makedirs(download_path)
+# # Ensure the download path exists
+# if not os.path.exists(download_path):
+#     os.makedirs(download_path)
 
-# Download and extract folder
-flag = 1
-if flag==0:
-    gr.download_and_extract_with_gdown(gdrive_link, folder_name, download_path, extract_path)
+# # Download and extract folder
+# flag = 1
+# if flag==0:
+#     gr.download_and_extract_with_gdown(gdrive_link, folder_name, download_path, extract_path)
 
 def plot_antibiotic_resistance(organism):
     mapping = {
-        "Escherichia coli" : "./resource/resource/Final data/Ecoli data/Final_Ecoli.csv",
+        "Escherichia coli" : ["./resource/resource/Final data/Ecoli data/Final_Ecoli1.csv","./resource/resource/Final data/Ecoli data/Final_Ecoli2.csv"],
         "Enterococcus faecium" : "./resource/resource/Final data/EF data/Final_EF.csv",
         "Klebsiella pneumoniae" : "./resource/resource/Final data/KP data/Final_KP.csv",
         "Acinetobacter baumannii" : "./resource/resource/Final data/AB data/Final_AB.csv",
         "Pseudomonas aeruginosa" : "./resource/resource/Final data/PA data/Final_PA.csv",
-        "Staphylococcus aureus" : "./resource/resource/Final data/SA data/Final_SA.csv",
+        "Staphylococcus aureus" : ["./resource/resource/Final data/SA data/Final_SA1.csv","./resource/resource/Final data/SA data/Final_SA2.csv"],
         "Enterobacter cloacae" : "./resource/resource/Final data/EB data/Final_EB.csv"
     }
     #df = pd.read_csv("cs_res2.csv",low_memory=False)
@@ -86,15 +86,31 @@ def get_cons(organism):
     import pandas as pd
     import numpy as np
     mapping = {
-        "Escherichia coli" : "./resource/resource/Final data/Ecoli data/Final_Ecoli.csv",
+        "Escherichia coli" : ["./resource/resource/Final data/Ecoli data/Final_Ecoli1.csv","./resource/resource/Final data/Ecoli data/Final_Ecoli2.csv"],
         "Enterococcus faecium" : "./resource/resource/Final data/EF data/Final_EF.csv",
         "Klebsiella pneumoniae" : "./resource/resource/Final data/KP data/Final_KP.csv",
         "Acinetobacter baumannii" : "./resource/resource/Final data/AB data/Final_AB.csv",
         "Pseudomonas aeruginosa" : "./resource/resource/Final data/PA data/Final_PA.csv",
-        "Staphylococcus aureus" : "./resource/resource/Final data/SA data/Final_SA.csv",
+        "Staphylococcus aureus" : ["./resource/resource/Final data/SA data/Final_SA1.csv","./resource/resource/Final data/SA data/Final_SA2.csv"],
         "Enterobacter cloacae" : "./resource/resource/Final data/EB data/Final_EB.csv"
     }
-    ecoli = pd.read_csv(mapping[organism],low_memory=False)
+    if type(mapping[organism])==type([1,2]):
+        import pandas as pd
+        def combine_csv(file1, file2):
+            # Load the two CSV files
+            df1 = pd.read_csv(file1)
+            df2 = pd.read_csv(file2)
+            
+            # Concatenate the two dataframes to get the original dataframe
+            combined_df = pd.concat([df1, df2], ignore_index=True)
+            
+            return combined_df
+
+        # Usage
+        original_df = combine_csv(mapping[organism][0], mapping[organism][1])
+        ecoli = original_df
+    else:
+        ecoli = pd.read_csv(mapping[organism],low_memory=False)
     ec=ecoli.copy()
     ec['Age Group'].value_counts()
     clean_ec=ec[ec['Age Group'] != 'Unknown']
@@ -117,15 +133,31 @@ def plot_country_group(organism,country):
     import pandas as pd
     import numpy as np
     mapping = {
-        "Escherichia coli" : "./resource/resource/Final data/Ecoli data/Final_Ecoli.csv",
+        "Escherichia coli" : ["./resource/resource/Final data/Ecoli data/Final_Ecoli1.csv","./resource/resource/Final data/Ecoli data/Final_Ecoli2.csv"],
         "Enterococcus faecium" : "./resource/resource/Final data/EF data/Final_EF.csv",
         "Klebsiella pneumoniae" : "./resource/resource/Final data/KP data/Final_KP.csv",
         "Acinetobacter baumannii" : "./resource/resource/Final data/AB data/Final_AB.csv",
         "Pseudomonas aeruginosa" : "./resource/resource/Final data/PA data/Final_PA.csv",
-        "Staphylococcus aureus" : "./resource/resource/Final data/SA data/Final_SA.csv",
+        "Staphylococcus aureus" : ["./resource/resource/Final data/SA data/Final_SA1.csv","./resource/resource/Final data/SA data/Final_SA2.csv"],
         "Enterobacter cloacae" : "./resource/resource/Final data/EB data/Final_EB.csv"
     }
-    ecoli = pd.read_csv(mapping[organism],low_memory=False)
+    if type(mapping[organism])==type([1,2]):
+        import pandas as pd
+        def combine_csv(file1, file2):
+            # Load the two CSV files
+            df1 = pd.read_csv(file1)
+            df2 = pd.read_csv(file2)
+            
+            # Concatenate the two dataframes to get the original dataframe
+            combined_df = pd.concat([df1, df2], ignore_index=True)
+            
+            return combined_df
+
+        # Usage
+        original_df = combine_csv(mapping[organism][0], mapping[organism][1])
+        ecoli = original_df
+    else:
+        ecoli = pd.read_csv(mapping[organism],low_memory=False)
     ec=ecoli.copy()
     ec['Age Group'].value_counts()
     clean_ec=ec[ec['Age Group'] != 'Unknown']
@@ -216,15 +248,31 @@ def plot_age_group(organism,age):
     import pandas as pd
     import numpy as np
     mapping = {
-        "Escherichia coli" : "./resource/resource/Final data/Ecoli data/Final_Ecoli.csv",
+        "Escherichia coli" : ["./resource/resource/Final data/Ecoli data/Final_Ecoli1.csv","./resource/resource/Final data/Ecoli data/Final_Ecoli2.csv"],
         "Enterococcus faecium" : "./resource/resource/Final data/EF data/Final_EF.csv",
         "Klebsiella pneumoniae" : "./resource/resource/Final data/KP data/Final_KP.csv",
         "Acinetobacter baumannii" : "./resource/resource/Final data/AB data/Final_AB.csv",
         "Pseudomonas aeruginosa" : "./resource/resource/Final data/PA data/Final_PA.csv",
-        "Staphylococcus aureus" : "./resource/resource/Final data/SA data/Final_SA.csv",
+        "Staphylococcus aureus" : ["./resource/resource/Final data/SA data/Final_SA1.csv","./resource/resource/Final data/SA data/Final_SA2.csv"],
         "Enterobacter cloacae" : "./resource/resource/Final data/EB data/Final_EB.csv"
     }
-    ecoli = pd.read_csv(mapping[organism],low_memory=False)
+    if type(mapping[organism])==type([1,2]):
+        import pandas as pd
+        def combine_csv(file1, file2):
+            # Load the two CSV files
+            df1 = pd.read_csv(file1)
+            df2 = pd.read_csv(file2)
+            
+            # Concatenate the two dataframes to get the original dataframe
+            combined_df = pd.concat([df1, df2], ignore_index=True)
+            
+            return combined_df
+
+        # Usage
+        original_df = combine_csv(mapping[organism][0], mapping[organism][1])
+        ecoli = original_df
+    else:
+        ecoli = pd.read_csv(mapping[organism],low_memory=False)
     ec=ecoli.copy()
     ec['Age Group'].value_counts()
     clean_ec=ec[ec['Age Group'] != 'Unknown']
@@ -302,15 +350,31 @@ def conplot_geo(organism):
     import pandas as pd
     import plotly.express as px
     mapping = {
-        "Escherichia coli" : "./resource/resource/Final data/Ecoli data/Final_Ecoli.csv",
+        "Escherichia coli" : ["./resource/resource/Final data/Ecoli data/Final_Ecoli1.csv","./resource/resource/Final data/Ecoli data/Final_Ecoli2.csv"],
         "Enterococcus faecium" : "./resource/resource/Final data/EF data/Final_EF.csv",
         "Klebsiella pneumoniae" : "./resource/resource/Final data/KP data/Final_KP.csv",
         "Acinetobacter baumannii" : "./resource/resource/Final data/AB data/Final_AB.csv",
         "Pseudomonas aeruginosa" : "./resource/resource/Final data/PA data/Final_PA.csv",
-        "Staphylococcus aureus" : "./resource/resource/Final data/SA data/Final_SA.csv",
-        "Enterobacter cloacae" : "./resource/resource/Final data/EC data/Final_EC.csv"
+        "Staphylococcus aureus" : ["./resource/resource/Final data/SA data/Final_SA1.csv","./resource/resource/Final data/SA data/Final_SA2.csv"],
+        "Enterobacter cloacae" : "./resource/resource/Final data/EB data/Final_EB.csv"
     }
-    ecoli = pd.read_csv(mapping[organism],low_memory=False)
+    if type(mapping[organism])==type([1,2]):
+        import pandas as pd
+        def combine_csv(file1, file2):
+            # Load the two CSV files
+            df1 = pd.read_csv(file1)
+            df2 = pd.read_csv(file2)
+            
+            # Concatenate the two dataframes to get the original dataframe
+            combined_df = pd.concat([df1, df2], ignore_index=True)
+            
+            return combined_df
+
+        # Usage
+        original_df = combine_csv(mapping[organism][0], mapping[organism][1])
+        ecoli = original_df
+    else:
+        ecoli = pd.read_csv(mapping[organism],low_memory=False)
     ec=ecoli.copy()
     ec_country_above_500=ec[ec.Country.isin(ec.Country.value_counts()[ec.Country.value_counts()>500].index)]
     clean_ec_cols_plot3=list(ec_country_above_500.columns[ec_country_above_500.columns.str.contains("_I")])
