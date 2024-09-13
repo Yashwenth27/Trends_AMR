@@ -17,16 +17,18 @@ import matplotlib.pyplot as plt
 # if flag==0:
 #     gr.download_and_extract_with_gdown(gdrive_link, folder_name, download_path, extract_path)
 
-def plot_antibiotic_resistance(organism):
-    mapping = {
-        "Escherichia coli" : ["./resource/resource/Final data/Ecoli data/Final_Ecoli1.csv","./resource/resource/Final data/Ecoli data/Final_Ecoli2.csv"],
-        "Enterococcus faecium" : "./resource/resource/Final data/EF data/Final_EF.csv",
-        "Klebsiella pneumoniae" : "./resource/resource/Final data/KP data/Final_KP.csv",
-        "Acinetobacter baumannii" : "./resource/resource/Final data/AB data/Final_AB.csv",
-        "Pseudomonas aeruginosa" : "./resource/resource/Final data/PA data/Final_PA.csv",
-        "Staphylococcus aureus" : ["./resource/resource/Final data/SA data/Final_SA1.csv","./resource/resource/Final data/SA data/Final_SA2.csv"],
-        "Enterobacter cloacae" : "./resource/resource/Final data/EB data/Final_EB.csv"
+mapping = {
+        "Escherichia coli" : ["./Final_Ecoli1.csv",".Final_Ecoli2.csv"],
+        "Enterococcus faecium" : "./Final_EF.csv",
+        "Klebsiella pneumoniae" : "./Final_KP.csv",
+        "Acinetobacter baumannii" : "./Final_AB.csv",
+        "Pseudomonas aeruginosa" : "./Final_PA.csv",
+        "Staphylococcus aureus" : ["./Final_SA1.csv","./Final_SA2.csv"],
+        "Enterobacter cloacae" : "./Final_EB.csv"
     }
+
+def plot_antibiotic_resistance(organism):
+    
     #df = pd.read_csv("cs_res2.csv",low_memory=False)
     df = pd.read_csv("cs_res.csv", encoding='ISO-8859-1', low_memory=False)
 
@@ -85,15 +87,7 @@ def plot_antibiotic_resistance(organism):
 def get_cons(organism):
     import pandas as pd
     import numpy as np
-    mapping = {
-        "Escherichia coli" : ["./resource/resource/Final data/Ecoli data/Final_Ecoli1.csv","./resource/resource/Final data/Ecoli data/Final_Ecoli2.csv"],
-        "Enterococcus faecium" : "./resource/resource/Final data/EF data/Final_EF.csv",
-        "Klebsiella pneumoniae" : "./resource/resource/Final data/KP data/Final_KP.csv",
-        "Acinetobacter baumannii" : "./resource/resource/Final data/AB data/Final_AB.csv",
-        "Pseudomonas aeruginosa" : "./resource/resource/Final data/PA data/Final_PA.csv",
-        "Staphylococcus aureus" : ["./resource/resource/Final data/SA data/Final_SA1.csv","./resource/resource/Final data/SA data/Final_SA2.csv"],
-        "Enterobacter cloacae" : "./resource/resource/Final data/EB data/Final_EB.csv"
-    }
+    
     if type(mapping[organism])==type([1,2]):
         import pandas as pd
         def combine_csv(file1, file2):
@@ -132,15 +126,6 @@ def get_cons(organism):
 def plot_country_group(organism,country):
     import pandas as pd
     import numpy as np
-    mapping = {
-        "Escherichia coli" : ["./resource/resource/Final data/Ecoli data/Final_Ecoli1.csv","./resource/resource/Final data/Ecoli data/Final_Ecoli2.csv"],
-        "Enterococcus faecium" : "./resource/resource/Final data/EF data/Final_EF.csv",
-        "Klebsiella pneumoniae" : "./resource/resource/Final data/KP data/Final_KP.csv",
-        "Acinetobacter baumannii" : "./resource/resource/Final data/AB data/Final_AB.csv",
-        "Pseudomonas aeruginosa" : "./resource/resource/Final data/PA data/Final_PA.csv",
-        "Staphylococcus aureus" : ["./resource/resource/Final data/SA data/Final_SA1.csv","./resource/resource/Final data/SA data/Final_SA2.csv"],
-        "Enterobacter cloacae" : "./resource/resource/Final data/EB data/Final_EB.csv"
-    }
     if type(mapping[organism])==type([1,2]):
         import pandas as pd
         def combine_csv(file1, file2):
