@@ -232,15 +232,7 @@ def plot_country_group(organism,country):
 def plot_age_group(organism,age):
     import pandas as pd
     import numpy as np
-    mapping = {
-        "Escherichia coli" : ["./resource/resource/Final data/Ecoli data/Final_Ecoli1.csv","./resource/resource/Final data/Ecoli data/Final_Ecoli2.csv"],
-        "Enterococcus faecium" : "./resource/resource/Final data/EF data/Final_EF.csv",
-        "Klebsiella pneumoniae" : "./resource/resource/Final data/KP data/Final_KP.csv",
-        "Acinetobacter baumannii" : "./resource/resource/Final data/AB data/Final_AB.csv",
-        "Pseudomonas aeruginosa" : "./resource/resource/Final data/PA data/Final_PA.csv",
-        "Staphylococcus aureus" : ["./resource/resource/Final data/SA data/Final_SA1.csv","./resource/resource/Final data/SA data/Final_SA2.csv"],
-        "Enterobacter cloacae" : "./resource/resource/Final data/EB data/Final_EB.csv"
-    }
+    
     if type(mapping[organism])==type([1,2]):
         import pandas as pd
         def combine_csv(file1, file2):
