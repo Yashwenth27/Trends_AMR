@@ -1,0 +1,1637 @@
+Organism,Antibiotics,Year,R,S
+Enterobacter spp,Amikacin,2004,87,1663
+Enterobacter spp,Amikacin,2005,144,1726
+Enterobacter spp,Amikacin,2006,265,2348
+Enterobacter spp,Amikacin,2007,320,3199
+Enterobacter spp,Amikacin,2008,414,2925
+Enterobacter spp,Amikacin,2009,430,3316
+Enterobacter spp,Amikacin,2010,265,2744
+Enterobacter spp,Amikacin,2011,140,2206
+Enterobacter spp,Amikacin,2012,153,2691
+Enterobacter spp,Amikacin,2013,230,3624
+Enterobacter spp,Amikacin,2014,175,3192
+Enterobacter spp,Amikacin,2015,191,3112
+Enterobacter spp,Amikacin,2016,157,3490
+Enterobacter spp,Amikacin,2017,152,2917
+Enterobacter spp,Amikacin,2018,159,2737
+Enterobacter spp,Amikacin,2019,115,2056
+Enterobacter spp,Amikacin,2020,107,2234
+Enterobacter spp,Amikacin,2021,116,2278
+Enterobacter spp,Amikacin,2022,85,2129
+Enterobacter spp,Amoxycillin clavulanate,2004,1692,58
+Enterobacter spp,Amoxycillin clavulanate,2005,1821,49
+Enterobacter spp,Amoxycillin clavulanate,2006,2525,88
+Enterobacter spp,Amoxycillin clavulanate,2007,3388,131
+Enterobacter spp,Amoxycillin clavulanate,2008,3213,126
+Enterobacter spp,Amoxycillin clavulanate,2009,3621,125
+Enterobacter spp,Amoxycillin clavulanate,2010,2906,103
+Enterobacter spp,Amoxycillin clavulanate,2011,2265,81
+Enterobacter spp,Amoxycillin clavulanate,2012,2675,169
+Enterobacter spp,Amoxycillin clavulanate,2013,3729,125
+Enterobacter spp,Amoxycillin clavulanate,2014,3215,152
+Enterobacter spp,Amoxycillin clavulanate,2015,3184,119
+Enterobacter spp,Amoxycillin clavulanate,2016,3529,118
+Enterobacter spp,Amoxycillin clavulanate,2017,2982,87
+Enterobacter spp,Amoxycillin clavulanate,2018,2821,75
+Enterobacter spp,Amoxycillin clavulanate,2019,2091,80
+Enterobacter spp,Amoxycillin clavulanate,2020,2242,99
+Enterobacter spp,Amoxycillin clavulanate,2021,2300,94
+Enterobacter spp,Amoxycillin clavulanate,2022,2108,106
+Enterobacter spp,Ampicillin,2004,1699,50
+Enterobacter spp,Ampicillin,2005,1821,47
+Enterobacter spp,Ampicillin,2006,2547,38
+Enterobacter spp,Ampicillin,2007,3408,67
+Enterobacter spp,Ampicillin,2008,3183,156
+Enterobacter spp,Ampicillin,2009,3604,142
+Enterobacter spp,Ampicillin,2010,2911,98
+Enterobacter spp,Ampicillin,2011,2255,91
+Enterobacter spp,Ampicillin,2012,2694,150
+Enterobacter spp,Ampicillin,2013,3604,250
+Enterobacter spp,Ampicillin,2014,3101,266
+Enterobacter spp,Ampicillin,2015,3082,221
+Enterobacter spp,Ampicillin,2016,3417,230
+Enterobacter spp,Ampicillin,2017,2866,203
+Enterobacter spp,Ampicillin,2018,2657,239
+Enterobacter spp,Ampicillin,2019,2015,156
+Enterobacter spp,Ampicillin,2020,2177,164
+Enterobacter spp,Ampicillin,2021,2249,145
+Enterobacter spp,Ampicillin,2022,2027,187
+Enterobacter spp,Cefepime,2004,263,1487
+Enterobacter spp,Cefepime,2005,354,1516
+Enterobacter spp,Cefepime,2006,541,2072
+Enterobacter spp,Cefepime,2007,651,2868
+Enterobacter spp,Cefepime,2008,801,2538
+Enterobacter spp,Cefepime,2009,889,2857
+Enterobacter spp,Cefepime,2010,680,2329
+Enterobacter spp,Cefepime,2011,460,1886
+Enterobacter spp,Cefepime,2012,601,2243
+Enterobacter spp,Cefepime,2013,736,3118
+Enterobacter spp,Cefepime,2014,644,2723
+Enterobacter spp,Cefepime,2015,628,2675
+Enterobacter spp,Cefepime,2016,718,2929
+Enterobacter spp,Cefepime,2017,649,2420
+Enterobacter spp,Cefepime,2018,687,2475
+Enterobacter spp,Cefepime,2019,515,1958
+Enterobacter spp,Cefepime,2020,552,2017
+Enterobacter spp,Cefepime,2021,536,2092
+Enterobacter spp,Cefepime,2022,538,2176
+Enterobacter spp,Ceftazidime,2005,2,0
+Enterobacter spp,Ceftazidime,2006,6,0
+Enterobacter spp,Ceftazidime,2007,20,0
+Enterobacter spp,Ceftazidime,2008,4,0
+Enterobacter spp,Ceftazidime,2009,6,2
+Enterobacter spp,Ceftazidime,2010,1063,704
+Enterobacter spp,Ceftazidime,2011,706,1624
+Enterobacter spp,Ceftazidime,2012,883,1952
+Enterobacter spp,Ceftazidime,2013,1205,2649
+Enterobacter spp,Ceftazidime,2014,1059,2308
+Enterobacter spp,Ceftazidime,2015,1070,2233
+Enterobacter spp,Ceftazidime,2016,1070,2577
+Enterobacter spp,Ceftazidime,2017,957,2112
+Enterobacter spp,Ceftazidime,2018,1098,2064
+Enterobacter spp,Ceftazidime,2019,827,1646
+Enterobacter spp,Ceftazidime,2020,869,1700
+Enterobacter spp,Ceftazidime,2021,872,1756
+Enterobacter spp,Ceftazidime,2022,882,1832
+Enterobacter spp,Ceftriaxone,2004,588,1162
+Enterobacter spp,Ceftriaxone,2005,702,1168
+Enterobacter spp,Ceftriaxone,2006,993,1620
+Enterobacter spp,Ceftriaxone,2007,1322,2197
+Enterobacter spp,Ceftriaxone,2008,1472,1867
+Enterobacter spp,Ceftriaxone,2009,1672,2074
+Enterobacter spp,Ceftriaxone,2010,1296,1713
+Enterobacter spp,Ceftriaxone,2011,858,1488
+Enterobacter spp,Ceftriaxone,2012,754,1336
+Enterobacter spp,Ceftriaxone,2013,1005,1762
+Enterobacter spp,Ceftriaxone,2014,803,1460
+Enterobacter spp,Ceftriaxone,2015,893,1459
+Enterobacter spp,Ceftriaxone,2016,1280,2367
+Enterobacter spp,Ceftriaxone,2017,1120,1949
+Enterobacter spp,Imipenem,2004,71,1609
+Enterobacter spp,Imipenem,2005,62,1725
+Enterobacter spp,Imipenem,2006,32,1487
+Enterobacter spp,Imipenem,2007,2,105
+Enterobacter spp,Imipenem,2008,0,3
+Enterobacter spp,Imipenem,2012,51,703
+Enterobacter spp,Imipenem,2013,68,1019
+Enterobacter spp,Imipenem,2014,94,1010
+Enterobacter spp,Imipenem,2015,125,860
+Enterobacter spp,Imipenem,2016,118,1164
+Enterobacter spp,Imipenem,2017,105,1057
+Enterobacter spp,Imipenem,2018,259,2637
+Enterobacter spp,Imipenem,2019,266,1905
+Enterobacter spp,Imipenem,2020,303,2038
+Enterobacter spp,Imipenem,2021,292,2102
+Enterobacter spp,Imipenem,2022,181,2033
+Enterobacter spp,Levofloxacin,2004,240,1510
+Enterobacter spp,Levofloxacin,2005,324,1546
+Enterobacter spp,Levofloxacin,2006,508,2105
+Enterobacter spp,Levofloxacin,2007,656,2863
+Enterobacter spp,Levofloxacin,2008,781,2558
+Enterobacter spp,Levofloxacin,2009,857,2889
+Enterobacter spp,Levofloxacin,2010,710,2299
+Enterobacter spp,Levofloxacin,2011,425,1921
+Enterobacter spp,Levofloxacin,2012,469,2375
+Enterobacter spp,Levofloxacin,2013,643,3211
+Enterobacter spp,Levofloxacin,2014,526,2841
+Enterobacter spp,Levofloxacin,2015,571,2732
+Enterobacter spp,Levofloxacin,2016,574,3073
+Enterobacter spp,Levofloxacin,2017,495,2574
+Enterobacter spp,Levofloxacin,2018,544,2618
+Enterobacter spp,Levofloxacin,2019,416,2057
+Enterobacter spp,Levofloxacin,2020,432,2137
+Enterobacter spp,Levofloxacin,2021,435,2193
+Enterobacter spp,Levofloxacin,2022,413,2301
+Enterobacter spp,Meropenem,2004,1,69
+Enterobacter spp,Meropenem,2005,3,80
+Enterobacter spp,Meropenem,2006,29,1065
+Enterobacter spp,Meropenem,2007,80,3332
+Enterobacter spp,Meropenem,2008,160,3176
+Enterobacter spp,Meropenem,2009,144,3602
+Enterobacter spp,Meropenem,2010,48,2961
+Enterobacter spp,Meropenem,2011,39,2307
+Enterobacter spp,Meropenem,2012,36,2808
+Enterobacter spp,Meropenem,2013,94,3760
+Enterobacter spp,Meropenem,2014,77,3290
+Enterobacter spp,Meropenem,2015,118,3185
+Enterobacter spp,Meropenem,2016,110,3537
+Enterobacter spp,Meropenem,2017,98,2971
+Enterobacter spp,Meropenem,2018,119,3043
+Enterobacter spp,Meropenem,2019,140,2333
+Enterobacter spp,Meropenem,2020,112,2457
+Enterobacter spp,Meropenem,2021,142,2486
+Enterobacter spp,Meropenem,2022,125,2589
+Enterobacter spp,Minocycline,2004,272,1478
+Enterobacter spp,Minocycline,2005,328,1542
+Enterobacter spp,Minocycline,2006,545,2068
+Enterobacter spp,Minocycline,2007,804,2715
+Enterobacter spp,Minocycline,2008,1179,2160
+Enterobacter spp,Minocycline,2009,1623,2123
+Enterobacter spp,Minocycline,2010,1494,1515
+Enterobacter spp,Minocycline,2011,569,1777
+Enterobacter spp,Minocycline,2012,297,1793
+Enterobacter spp,Minocycline,2013,379,2388
+Enterobacter spp,Minocycline,2014,270,1993
+Enterobacter spp,Minocycline,2015,286,2032
+Enterobacter spp,Minocycline,2016,296,2069
+Enterobacter spp,Minocycline,2017,203,1704
+Enterobacter spp,Piperacillin tazobactam,2004,419,1331
+Enterobacter spp,Piperacillin tazobactam,2005,519,1351
+Enterobacter spp,Piperacillin tazobactam,2006,745,1868
+Enterobacter spp,Piperacillin tazobactam,2007,938,2581
+Enterobacter spp,Piperacillin tazobactam,2008,1121,2218
+Enterobacter spp,Piperacillin tazobactam,2009,1271,2475
+Enterobacter spp,Piperacillin tazobactam,2010,977,2032
+Enterobacter spp,Piperacillin tazobactam,2011,617,1729
+Enterobacter spp,Piperacillin tazobactam,2012,766,2078
+Enterobacter spp,Piperacillin tazobactam,2013,1020,2834
+Enterobacter spp,Piperacillin tazobactam,2014,947,2420
+Enterobacter spp,Piperacillin tazobactam,2015,890,2413
+Enterobacter spp,Piperacillin tazobactam,2016,916,2731
+Enterobacter spp,Piperacillin tazobactam,2017,793,2276
+Enterobacter spp,Piperacillin tazobactam,2018,942,2220
+Enterobacter spp,Piperacillin tazobactam,2019,739,1734
+Enterobacter spp,Piperacillin tazobactam,2020,725,1844
+Enterobacter spp,Piperacillin tazobactam,2021,800,1828
+Enterobacter spp,Piperacillin tazobactam,2022,783,1931
+Enterobacter spp,Tigecycline,2004,109,1641
+Enterobacter spp,Tigecycline,2005,129,1741
+Enterobacter spp,Tigecycline,2006,143,2470
+Enterobacter spp,Tigecycline,2007,137,3382
+Enterobacter spp,Tigecycline,2008,146,3193
+Enterobacter spp,Tigecycline,2009,191,3555
+Enterobacter spp,Tigecycline,2010,127,2882
+Enterobacter spp,Tigecycline,2011,121,2225
+Enterobacter spp,Tigecycline,2012,127,2717
+Enterobacter spp,Tigecycline,2013,145,3709
+Enterobacter spp,Tigecycline,2014,130,3237
+Enterobacter spp,Tigecycline,2015,125,3178
+Enterobacter spp,Tigecycline,2016,117,3530
+Enterobacter spp,Tigecycline,2017,98,2971
+Enterobacter spp,Tigecycline,2018,64,2832
+Enterobacter spp,Tigecycline,2019,57,2114
+Enterobacter spp,Tigecycline,2020,79,2262
+Enterobacter spp,Tigecycline,2021,73,2321
+Enterobacter spp,Tigecycline,2022,48,2166
+Enterobacter spp,Aztreonam,2012,242,512
+Enterobacter spp,Aztreonam,2013,343,744
+Enterobacter spp,Aztreonam,2014,362,742
+Enterobacter spp,Aztreonam,2015,293,692
+Enterobacter spp,Aztreonam,2016,356,926
+Enterobacter spp,Aztreonam,2017,378,784
+Enterobacter spp,Aztreonam,2018,962,1934
+Enterobacter spp,Aztreonam,2019,686,1485
+Enterobacter spp,Aztreonam,2020,755,1586
+Enterobacter spp,Aztreonam,2021,761,1633
+Enterobacter spp,Aztreonam,2022,687,1527
+Enterobacter spp,Aztreonam avibactam,2012,1,753
+Enterobacter spp,Aztreonam avibactam,2013,1,1086
+Enterobacter spp,Aztreonam avibactam,2014,3,1101
+Enterobacter spp,Aztreonam avibactam,2015,1,950
+Enterobacter spp,Aztreonam avibactam,2016,0,1226
+Enterobacter spp,Aztreonam avibactam,2017,0,1118
+Enterobacter spp,Aztreonam avibactam,2018,1,2687
+Enterobacter spp,Aztreonam avibactam,2019,6,2165
+Enterobacter spp,Aztreonam avibactam,2020,1,2340
+Enterobacter spp,Aztreonam avibactam,2021,5,2389
+Enterobacter spp,Aztreonam avibactam,2022,3,2211
+Enterobacter spp,Ceftaroline,2012,308,446
+Enterobacter spp,Ceftaroline,2013,429,658
+Enterobacter spp,Ceftaroline,2014,448,656
+Enterobacter spp,Ceftaroline,2015,384,601
+Enterobacter spp,Ceftaroline,2016,443,839
+Enterobacter spp,Ceftaroline,2017,469,693
+Enterobacter spp,Ceftaroline,2018,1235,1661
+Enterobacter spp,Ceftaroline,2019,896,1275
+Enterobacter spp,Ceftaroline,2020,959,1382
+Enterobacter spp,Ceftaroline,2021,982,1412
+Enterobacter spp,Ceftaroline,2022,846,1368
+Enterobacter spp,Ceftazidime avibactam,2012,10,744
+Enterobacter spp,Ceftazidime avibactam,2013,16,1071
+Enterobacter spp,Ceftazidime avibactam,2014,18,1086
+Enterobacter spp,Ceftazidime avibactam,2015,29,956
+Enterobacter spp,Ceftazidime avibactam,2016,31,1251
+Enterobacter spp,Ceftazidime avibactam,2017,28,1134
+Enterobacter spp,Ceftazidime avibactam,2018,87,2809
+Enterobacter spp,Ceftazidime avibactam,2019,78,2093
+Enterobacter spp,Ceftazidime avibactam,2020,74,2267
+Enterobacter spp,Ceftazidime avibactam,2021,104,2290
+Enterobacter spp,Ceftazidime avibactam,2022,79,2135
+Klebsiella pneumoniae,Amikacin,2004,227,1899
+Klebsiella pneumoniae,Amikacin,2005,276,2031
+Klebsiella pneumoniae,Amikacin,2006,517,2571
+Klebsiella pneumoniae,Amikacin,2007,602,3504
+Klebsiella pneumoniae,Amikacin,2008,706,3186
+Klebsiella pneumoniae,Amikacin,2009,768,3617
+Klebsiella pneumoniae,Amikacin,2010,578,2787
+Klebsiella pneumoniae,Amikacin,2011,342,2181
+Klebsiella pneumoniae,Amikacin,2012,649,3884
+Klebsiella pneumoniae,Amikacin,2013,856,5390
+Klebsiella pneumoniae,Amikacin,2014,1011,6177
+Klebsiella pneumoniae,Amikacin,2015,830,5897
+Klebsiella pneumoniae,Amikacin,2016,812,6595
+Klebsiella pneumoniae,Amikacin,2017,680,5643
+Klebsiella pneumoniae,Amikacin,2018,761,3985
+Klebsiella pneumoniae,Amikacin,2019,1050,5110
+Klebsiella pneumoniae,Amikacin,2020,1134,5619
+Klebsiella pneumoniae,Amikacin,2021,1330,5846
+Klebsiella pneumoniae,Amikacin,2022,980,5360
+Klebsiella pneumoniae,Amoxycillin clavulanate,2004,430,1696
+Klebsiella pneumoniae,Amoxycillin clavulanate,2005,528,1779
+Klebsiella pneumoniae,Amoxycillin clavulanate,2006,895,2193
+Klebsiella pneumoniae,Amoxycillin clavulanate,2007,1153,2953
+Klebsiella pneumoniae,Amoxycillin clavulanate,2008,1505,2387
+Klebsiella pneumoniae,Amoxycillin clavulanate,2009,1679,2706
+Klebsiella pneumoniae,Amoxycillin clavulanate,2010,1392,1973
+Klebsiella pneumoniae,Amoxycillin clavulanate,2011,747,1776
+Klebsiella pneumoniae,Amoxycillin clavulanate,2012,1530,3003
+Klebsiella pneumoniae,Amoxycillin clavulanate,2013,2398,3848
+Klebsiella pneumoniae,Amoxycillin clavulanate,2014,2735,4453
+Klebsiella pneumoniae,Amoxycillin clavulanate,2015,2556,4171
+Klebsiella pneumoniae,Amoxycillin clavulanate,2016,3090,4317
+Klebsiella pneumoniae,Amoxycillin clavulanate,2017,2881,3442
+Klebsiella pneumoniae,Amoxycillin clavulanate,2018,2268,2478
+Klebsiella pneumoniae,Amoxycillin clavulanate,2019,2164,3996
+Klebsiella pneumoniae,Amoxycillin clavulanate,2020,2162,4591
+Klebsiella pneumoniae,Amoxycillin clavulanate,2021,2555,4621
+Klebsiella pneumoniae,Amoxycillin clavulanate,2022,1908,4432
+Klebsiella pneumoniae,Ampicillin,2004,2087,38
+Klebsiella pneumoniae,Ampicillin,2005,2255,47
+Klebsiella pneumoniae,Ampicillin,2006,3013,44
+Klebsiella pneumoniae,Ampicillin,2007,4028,58
+Klebsiella pneumoniae,Ampicillin,2008,3850,42
+Klebsiella pneumoniae,Ampicillin,2009,4301,84
+Klebsiella pneumoniae,Ampicillin,2010,3301,64
+Klebsiella pneumoniae,Ampicillin,2011,2395,128
+Klebsiella pneumoniae,Ampicillin,2012,4421,112
+Klebsiella pneumoniae,Ampicillin,2013,6079,167
+Klebsiella pneumoniae,Ampicillin,2014,7009,179
+Klebsiella pneumoniae,Ampicillin,2015,6551,176
+Klebsiella pneumoniae,Ampicillin,2016,7236,171
+Klebsiella pneumoniae,Ampicillin,2017,6232,91
+Klebsiella pneumoniae,Ampicillin,2018,4675,71
+Klebsiella pneumoniae,Ampicillin,2019,6080,80
+Klebsiella pneumoniae,Ampicillin,2020,6677,76
+Klebsiella pneumoniae,Ampicillin,2021,7094,82
+Klebsiella pneumoniae,Ampicillin,2022,6218,122
+Klebsiella pneumoniae,Cefepime,2004,292,1834
+Klebsiella pneumoniae,Cefepime,2005,360,1947
+Klebsiella pneumoniae,Cefepime,2006,667,2421
+Klebsiella pneumoniae,Cefepime,2007,887,3219
+Klebsiella pneumoniae,Cefepime,2008,1134,2758
+Klebsiella pneumoniae,Cefepime,2009,1329,3056
+Klebsiella pneumoniae,Cefepime,2010,1114,2251
+Klebsiella pneumoniae,Cefepime,2011,656,1867
+Klebsiella pneumoniae,Cefepime,2012,1385,3148
+Klebsiella pneumoniae,Cefepime,2013,2054,4192
+Klebsiella pneumoniae,Cefepime,2014,2452,4736
+Klebsiella pneumoniae,Cefepime,2015,2278,4449
+Klebsiella pneumoniae,Cefepime,2016,2742,4665
+Klebsiella pneumoniae,Cefepime,2017,2436,3887
+Klebsiella pneumoniae,Cefepime,2018,2496,3546
+Klebsiella pneumoniae,Cefepime,2019,3302,4384
+Klebsiella pneumoniae,Cefepime,2020,3338,4617
+Klebsiella pneumoniae,Cefepime,2021,3632,4716
+Klebsiella pneumoniae,Cefepime,2022,2833,4011
+Klebsiella pneumoniae,Ceftazidime,2004,4,0
+Klebsiella pneumoniae,Ceftazidime,2005,7,0
+Klebsiella pneumoniae,Ceftazidime,2006,23,0
+Klebsiella pneumoniae,Ceftazidime,2007,26,0
+Klebsiella pneumoniae,Ceftazidime,2008,18,0
+Klebsiella pneumoniae,Ceftazidime,2009,8,0
+Klebsiella pneumoniae,Ceftazidime,2010,1315,780
+Klebsiella pneumoniae,Ceftazidime,2011,647,1872
+Klebsiella pneumoniae,Ceftazidime,2012,1421,3102
+Klebsiella pneumoniae,Ceftazidime,2013,2077,4169
+Klebsiella pneumoniae,Ceftazidime,2014,2453,4735
+Klebsiella pneumoniae,Ceftazidime,2015,2245,4482
+Klebsiella pneumoniae,Ceftazidime,2016,2638,4769
+Klebsiella pneumoniae,Ceftazidime,2017,2359,3964
+Klebsiella pneumoniae,Ceftazidime,2018,2570,3472
+Klebsiella pneumoniae,Ceftazidime,2019,3404,4282
+Klebsiella pneumoniae,Ceftazidime,2020,3483,4472
+Klebsiella pneumoniae,Ceftazidime,2021,3735,4613
+Klebsiella pneumoniae,Ceftazidime,2022,2916,3928
+Klebsiella pneumoniae,Ceftriaxone,2004,403,1723
+Klebsiella pneumoniae,Ceftriaxone,2005,473,1834
+Klebsiella pneumoniae,Ceftriaxone,2006,836,2252
+Klebsiella pneumoniae,Ceftriaxone,2007,1072,3034
+Klebsiella pneumoniae,Ceftriaxone,2008,1384,2508
+Klebsiella pneumoniae,Ceftriaxone,2009,1558,2827
+Klebsiella pneumoniae,Ceftriaxone,2010,1298,2067
+Klebsiella pneumoniae,Ceftriaxone,2011,737,1786
+Klebsiella pneumoniae,Ceftriaxone,2012,740,1554
+Klebsiella pneumoniae,Ceftriaxone,2013,899,1973
+Klebsiella pneumoniae,Ceftriaxone,2014,816,1645
+Klebsiella pneumoniae,Ceftriaxone,2015,1048,1754
+Klebsiella pneumoniae,Ceftriaxone,2016,2922,4485
+Klebsiella pneumoniae,Ceftriaxone,2017,2588,3735
+Klebsiella pneumoniae,Imipenem,2004,58,1997
+Klebsiella pneumoniae,Imipenem,2005,71,2080
+Klebsiella pneumoniae,Imipenem,2006,58,1693
+Klebsiella pneumoniae,Imipenem,2007,0,114
+Klebsiella pneumoniae,Imipenem,2012,186,2053
+Klebsiella pneumoniae,Imipenem,2013,281,3093
+Klebsiella pneumoniae,Imipenem,2014,425,4302
+Klebsiella pneumoniae,Imipenem,2015,422,3632
+Klebsiella pneumoniae,Imipenem,2016,480,4208
+Klebsiella pneumoniae,Imipenem,2017,549,3659
+Klebsiella pneumoniae,Imipenem,2018,756,3990
+Klebsiella pneumoniae,Imipenem,2019,1155,5005
+Klebsiella pneumoniae,Imipenem,2020,1413,5340
+Klebsiella pneumoniae,Imipenem,2021,1593,5583
+Klebsiella pneumoniae,Imipenem,2022,1237,5102
+Klebsiella pneumoniae,Levofloxacin,2004,391,1735
+Klebsiella pneumoniae,Levofloxacin,2005,461,1846
+Klebsiella pneumoniae,Levofloxacin,2006,788,2300
+Klebsiella pneumoniae,Levofloxacin,2007,1018,3088
+Klebsiella pneumoniae,Levofloxacin,2008,1233,2659
+Klebsiella pneumoniae,Levofloxacin,2009,1539,2846
+Klebsiella pneumoniae,Levofloxacin,2010,1318,2047
+Klebsiella pneumoniae,Levofloxacin,2011,733,1790
+Klebsiella pneumoniae,Levofloxacin,2012,1514,3019
+Klebsiella pneumoniae,Levofloxacin,2013,2132,4114
+Klebsiella pneumoniae,Levofloxacin,2014,2608,4580
+Klebsiella pneumoniae,Levofloxacin,2015,2348,4379
+Klebsiella pneumoniae,Levofloxacin,2016,2784,4623
+Klebsiella pneumoniae,Levofloxacin,2017,2346,3977
+Klebsiella pneumoniae,Levofloxacin,2018,2428,3614
+Klebsiella pneumoniae,Levofloxacin,2019,3183,4503
+Klebsiella pneumoniae,Levofloxacin,2020,3241,4714
+Klebsiella pneumoniae,Levofloxacin,2021,3549,4799
+Klebsiella pneumoniae,Levofloxacin,2022,2671,4173
+Klebsiella pneumoniae,Meropenem,2004,8,63
+Klebsiella pneumoniae,Meropenem,2005,19,137
+Klebsiella pneumoniae,Meropenem,2006,96,1241
+Klebsiella pneumoniae,Meropenem,2007,219,3773
+Klebsiella pneumoniae,Meropenem,2008,217,3675
+Klebsiella pneumoniae,Meropenem,2009,300,4085
+Klebsiella pneumoniae,Meropenem,2010,219,3146
+Klebsiella pneumoniae,Meropenem,2011,178,2345
+Klebsiella pneumoniae,Meropenem,2012,371,4162
+Klebsiella pneumoniae,Meropenem,2013,513,5733
+Klebsiella pneumoniae,Meropenem,2014,668,6520
+Klebsiella pneumoniae,Meropenem,2015,657,6070
+Klebsiella pneumoniae,Meropenem,2016,738,6669
+Klebsiella pneumoniae,Meropenem,2017,733,5590
+Klebsiella pneumoniae,Meropenem,2018,891,5151
+Klebsiella pneumoniae,Meropenem,2019,1302,6384
+Klebsiella pneumoniae,Meropenem,2020,1365,6590
+Klebsiella pneumoniae,Meropenem,2021,1669,6679
+Klebsiella pneumoniae,Meropenem,2022,1223,5621
+Klebsiella pneumoniae,Piperacillin tazobactam,2004,279,1847
+Klebsiella pneumoniae,Piperacillin tazobactam,2005,383,1924
+Klebsiella pneumoniae,Piperacillin tazobactam,2006,644,2444
+Klebsiella pneumoniae,Piperacillin tazobactam,2007,874,3232
+Klebsiella pneumoniae,Piperacillin tazobactam,2008,1253,2639
+Klebsiella pneumoniae,Piperacillin tazobactam,2009,1441,2944
+Klebsiella pneumoniae,Piperacillin tazobactam,2010,1185,2180
+Klebsiella pneumoniae,Piperacillin tazobactam,2011,600,1923
+Klebsiella pneumoniae,Piperacillin tazobactam,2012,1321,3212
+Klebsiella pneumoniae,Piperacillin tazobactam,2013,1923,4323
+Klebsiella pneumoniae,Piperacillin tazobactam,2014,2428,4760
+Klebsiella pneumoniae,Piperacillin tazobactam,2015,2043,4684
+Klebsiella pneumoniae,Piperacillin tazobactam,2016,2351,5056
+Klebsiella pneumoniae,Piperacillin tazobactam,2017,2049,4274
+Klebsiella pneumoniae,Piperacillin tazobactam,2018,2205,3837
+Klebsiella pneumoniae,Piperacillin tazobactam,2019,3101,4585
+Klebsiella pneumoniae,Piperacillin tazobactam,2020,2930,5025
+Klebsiella pneumoniae,Piperacillin tazobactam,2021,3290,5058
+Klebsiella pneumoniae,Piperacillin tazobactam,2022,2452,4392
+Klebsiella pneumoniae,Tigecycline,2004,124,2002
+Klebsiella pneumoniae,Tigecycline,2005,101,2206
+Klebsiella pneumoniae,Tigecycline,2006,145,2943
+Klebsiella pneumoniae,Tigecycline,2007,163,3943
+Klebsiella pneumoniae,Tigecycline,2008,155,3737
+Klebsiella pneumoniae,Tigecycline,2009,194,4191
+Klebsiella pneumoniae,Tigecycline,2010,167,3198
+Klebsiella pneumoniae,Tigecycline,2011,118,2405
+Klebsiella pneumoniae,Tigecycline,2012,248,4285
+Klebsiella pneumoniae,Tigecycline,2013,296,5950
+Klebsiella pneumoniae,Tigecycline,2014,314,6874
+Klebsiella pneumoniae,Tigecycline,2015,266,6461
+Klebsiella pneumoniae,Tigecycline,2016,254,7153
+Klebsiella pneumoniae,Tigecycline,2017,251,6072
+Klebsiella pneumoniae,Tigecycline,2018,114,4632
+Klebsiella pneumoniae,Tigecycline,2019,158,6002
+Klebsiella pneumoniae,Tigecycline,2020,257,6496
+Klebsiella pneumoniae,Tigecycline,2021,329,6847
+Klebsiella pneumoniae,Tigecycline,2022,176,6163
+Klebsiella pneumoniae,Aztreonam,2012,774,1465
+Klebsiella pneumoniae,Aztreonam,2013,1294,2080
+Klebsiella pneumoniae,Aztreonam,2014,1751,2976
+Klebsiella pneumoniae,Aztreonam,2015,1390,2664
+Klebsiella pneumoniae,Aztreonam,2016,1718,2970
+Klebsiella pneumoniae,Aztreonam,2017,1713,2495
+Klebsiella pneumoniae,Aztreonam,2018,2018,2728
+Klebsiella pneumoniae,Aztreonam,2019,2638,3522
+Klebsiella pneumoniae,Aztreonam,2020,2938,3815
+Klebsiella pneumoniae,Aztreonam,2021,3198,3978
+Klebsiella pneumoniae,Aztreonam,2022,2674,3666
+Klebsiella pneumoniae,Aztreonam avibactam,2012,6,2233
+Klebsiella pneumoniae,Aztreonam avibactam,2013,6,3368
+Klebsiella pneumoniae,Aztreonam avibactam,2014,8,4719
+Klebsiella pneumoniae,Aztreonam avibactam,2015,6,3919
+Klebsiella pneumoniae,Aztreonam avibactam,2016,1,4458
+Klebsiella pneumoniae,Aztreonam avibactam,2017,6,4035
+Klebsiella pneumoniae,Aztreonam avibactam,2018,10,4355
+Klebsiella pneumoniae,Aztreonam avibactam,2019,14,6146
+Klebsiella pneumoniae,Aztreonam avibactam,2020,21,6732
+Klebsiella pneumoniae,Aztreonam avibactam,2021,33,7143
+Klebsiella pneumoniae,Aztreonam avibactam,2022,17,6323
+Klebsiella pneumoniae,Ceftaroline,2012,934,1305
+Klebsiella pneumoniae,Ceftaroline,2013,1524,1850
+Klebsiella pneumoniae,Ceftaroline,2014,2042,2685
+Klebsiella pneumoniae,Ceftaroline,2015,1629,2425
+Klebsiella pneumoniae,Ceftaroline,2016,2053,2635
+Klebsiella pneumoniae,Ceftaroline,2017,2025,2183
+Klebsiella pneumoniae,Ceftaroline,2018,2368,2378
+Klebsiella pneumoniae,Ceftaroline,2019,3090,3070
+Klebsiella pneumoniae,Ceftaroline,2020,3359,3394
+Klebsiella pneumoniae,Ceftaroline,2021,3680,3496
+Klebsiella pneumoniae,Ceftaroline,2022,3128,3212
+Klebsiella pneumoniae,Ceftazidime avibactam,2012,22,2217
+Klebsiella pneumoniae,Ceftazidime avibactam,2013,25,3349
+Klebsiella pneumoniae,Ceftazidime avibactam,2014,46,4681
+Klebsiella pneumoniae,Ceftazidime avibactam,2015,68,3986
+Klebsiella pneumoniae,Ceftazidime avibactam,2016,74,4614
+Klebsiella pneumoniae,Ceftazidime avibactam,2017,79,4129
+Klebsiella pneumoniae,Ceftazidime avibactam,2018,210,4536
+Klebsiella pneumoniae,Ceftazidime avibactam,2019,323,5837
+Klebsiella pneumoniae,Ceftazidime avibactam,2020,426,6327
+Klebsiella pneumoniae,Ceftazidime avibactam,2021,598,6578
+Klebsiella pneumoniae,Ceftazidime avibactam,2022,501,5839
+Escherichia coli,Amoxycillin clavulanate,2004,311,90
+Escherichia coli,Amoxycillin clavulanate,2005,360,70
+Escherichia coli,Amoxycillin clavulanate,2006,551,109
+Escherichia coli,Amoxycillin clavulanate,2007,577,133
+Escherichia coli,Amoxycillin clavulanate,2008,633,173
+Escherichia coli,Amoxycillin clavulanate,2009,803,167
+Escherichia coli,Amoxycillin clavulanate,2010,597,149
+Escherichia coli,Amoxycillin clavulanate,2011,481,128
+Escherichia coli,Amoxycillin clavulanate,2012,474,816
+Escherichia coli,Amoxycillin clavulanate,2013,612,1060
+Escherichia coli,Amoxycillin clavulanate,2014,592,1108
+Escherichia coli,Amoxycillin clavulanate,2015,504,105
+Escherichia coli,Amoxycillin clavulanate,2016,615,104
+Escherichia coli,Amoxycillin clavulanate,2017,468,95
+Escherichia coli,Ampicillin,2004,314,87
+Escherichia coli,Ampicillin,2005,368,62
+Escherichia coli,Ampicillin,2006,567,93
+Escherichia coli,Ampicillin,2007,603,107
+Escherichia coli,Ampicillin,2008,672,134
+Escherichia coli,Ampicillin,2009,819,151
+Escherichia coli,Ampicillin,2010,620,126
+Escherichia coli,Ampicillin,2011,511,98
+Escherichia coli,Ampicillin,2012,1119,171
+Escherichia coli,Ampicillin,2013,1449,223
+Escherichia coli,Ampicillin,2014,1464,236
+Escherichia coli,Ampicillin,2015,532,77
+Escherichia coli,Ampicillin,2016,620,99
+Escherichia coli,Ampicillin,2017,487,76
+Escherichia coli,Ampicillin,2018,888,149
+Escherichia coli,Ampicillin,2019,997,173
+Escherichia coli,Ampicillin,2020,1176,204
+Escherichia coli,Ampicillin,2021,1101,157
+Escherichia coli,Ampicillin,2022,998,175
+Escherichia coli,Ceftriaxone,2004,375,26
+Escherichia coli,Ceftriaxone,2005,405,25
+Escherichia coli,Ceftriaxone,2006,611,49
+Escherichia coli,Ceftriaxone,2007,672,38
+Escherichia coli,Ceftriaxone,2008,752,54
+Escherichia coli,Ceftriaxone,2009,910,60
+Escherichia coli,Ceftriaxone,2010,695,51
+Escherichia coli,Ceftriaxone,2011,565,44
+Escherichia coli,Ceftriaxone,2012,528,38
+Escherichia coli,Ceftriaxone,2013,686,40
+Escherichia coli,Ceftriaxone,2014,666,46
+Escherichia coli,Ceftriaxone,2015,567,42
+Escherichia coli,Ceftriaxone,2016,669,50
+Escherichia coli,Ceftriaxone,2017,516,47
+Escherichia coli,Erythromycin,2012,696,28
+Escherichia coli,Erythromycin,2013,915,31
+Escherichia coli,Erythromycin,2014,984,34
+Escherichia coli,Erythromycin,2018,978,59
+Escherichia coli,Erythromycin,2019,1109,61
+Escherichia coli,Erythromycin,2020,1320,60
+Escherichia coli,Erythromycin,2021,1219,39
+Escherichia coli,Erythromycin,2022,1103,70
+Escherichia coli,Levofloxacin,2004,332,69
+Escherichia coli,Levofloxacin,2005,373,57
+Escherichia coli,Levofloxacin,2006,582,78
+Escherichia coli,Levofloxacin,2007,604,106
+Escherichia coli,Levofloxacin,2008,691,115
+Escherichia coli,Levofloxacin,2009,865,105
+Escherichia coli,Levofloxacin,2010,646,100
+Escherichia coli,Levofloxacin,2011,521,88
+Escherichia coli,Levofloxacin,2012,1156,134
+Escherichia coli,Levofloxacin,2013,1480,192
+Escherichia coli,Levofloxacin,2014,1487,213
+Escherichia coli,Levofloxacin,2015,537,72
+Escherichia coli,Levofloxacin,2016,638,81
+Escherichia coli,Levofloxacin,2017,491,72
+Escherichia coli,Levofloxacin,2018,903,134
+Escherichia coli,Levofloxacin,2019,1014,156
+Escherichia coli,Levofloxacin,2020,1181,199
+Escherichia coli,Levofloxacin,2021,1121,136
+Escherichia coli,Levofloxacin,2022,1004,169
+Escherichia coli,Linezolid,2004,8,393
+Escherichia coli,Linezolid,2005,3,427
+Escherichia coli,Linezolid,2006,4,656
+Escherichia coli,Linezolid,2007,7,703
+Escherichia coli,Linezolid,2008,8,798
+Escherichia coli,Linezolid,2009,11,959
+Escherichia coli,Linezolid,2010,6,740
+Escherichia coli,Linezolid,2011,5,604
+Escherichia coli,Linezolid,2012,45,1245
+Escherichia coli,Linezolid,2013,13,1659
+Escherichia coli,Linezolid,2014,27,1673
+Escherichia coli,Linezolid,2015,5,604
+Escherichia coli,Linezolid,2016,5,714
+Escherichia coli,Linezolid,2017,10,553
+Escherichia coli,Linezolid,2018,12,1025
+Escherichia coli,Linezolid,2019,18,1152
+Escherichia coli,Linezolid,2020,37,1343
+Escherichia coli,Linezolid,2021,30,1228
+Escherichia coli,Linezolid,2022,18,1155
+Escherichia coli,Meropenem,2004,21,5
+Escherichia coli,Meropenem,2005,29,1
+Escherichia coli,Meropenem,2006,283,17
+Escherichia coli,Meropenem,2007,631,54
+Escherichia coli,Meropenem,2008,723,81
+Escherichia coli,Meropenem,2009,896,74
+Escherichia coli,Meropenem,2010,664,82
+Escherichia coli,Meropenem,2011,552,57
+Escherichia coli,Meropenem,2012,1169,121
+Escherichia coli,Meropenem,2013,1588,84
+Escherichia coli,Meropenem,2014,1607,93
+Escherichia coli,Meropenem,2015,570,39
+Escherichia coli,Meropenem,2016,672,47
+Escherichia coli,Meropenem,2017,526,37
+Escherichia coli,Minocycline,2004,128,273
+Escherichia coli,Minocycline,2005,107,323
+Escherichia coli,Minocycline,2006,156,504
+Escherichia coli,Minocycline,2007,217,493
+Escherichia coli,Minocycline,2008,260,546
+Escherichia coli,Minocycline,2009,302,668
+Escherichia coli,Minocycline,2010,289,457
+Escherichia coli,Minocycline,2011,194,415
+Escherichia coli,Minocycline,2012,515,775
+Escherichia coli,Minocycline,2013,674,998
+Escherichia coli,Minocycline,2014,664,1036
+Escherichia coli,Minocycline,2015,206,403
+Escherichia coli,Minocycline,2016,236,483
+Escherichia coli,Minocycline,2017,175,388
+Escherichia coli,Penicillin,2004,331,70
+Escherichia coli,Penicillin,2005,371,59
+Escherichia coli,Penicillin,2006,575,85
+Escherichia coli,Penicillin,2007,604,106
+Escherichia coli,Penicillin,2008,666,140
+Escherichia coli,Penicillin,2009,835,135
+Escherichia coli,Penicillin,2010,615,131
+Escherichia coli,Penicillin,2011,499,110
+Escherichia coli,Penicillin,2012,488,78
+Escherichia coli,Penicillin,2013,630,96
+Escherichia coli,Penicillin,2014,584,98
+Escherichia coli,Penicillin,2015,532,77
+Escherichia coli,Penicillin,2016,634,85
+Escherichia coli,Penicillin,2017,485,78
+Escherichia coli,Piperacillin tazobactam,2004,349,52
+Escherichia coli,Piperacillin tazobactam,2005,393,37
+Escherichia coli,Piperacillin tazobactam,2006,601,59
+Escherichia coli,Piperacillin tazobactam,2007,644,66
+Escherichia coli,Piperacillin tazobactam,2008,733,73
+Escherichia coli,Piperacillin tazobactam,2009,897,73
+Escherichia coli,Piperacillin tazobactam,2010,676,70
+Escherichia coli,Piperacillin tazobactam,2011,541,68
+Escherichia coli,Piperacillin tazobactam,2012,1183,107
+Escherichia coli,Piperacillin tazobactam,2013,1564,108
+Escherichia coli,Piperacillin tazobactam,2014,1573,127
+Escherichia coli,Piperacillin tazobactam,2015,563,46
+Escherichia coli,Piperacillin tazobactam,2016,657,62
+Escherichia coli,Piperacillin tazobactam,2017,508,55
+Escherichia coli,Tigecycline,2004,0,401
+Escherichia coli,Tigecycline,2005,0,430
+Escherichia coli,Tigecycline,2006,0,660
+Escherichia coli,Tigecycline,2007,1,709
+Escherichia coli,Tigecycline,2008,6,800
+Escherichia coli,Tigecycline,2009,5,965
+Escherichia coli,Tigecycline,2010,1,745
+Escherichia coli,Tigecycline,2011,4,605
+Escherichia coli,Tigecycline,2012,52,1238
+Escherichia coli,Tigecycline,2013,57,1615
+Escherichia coli,Tigecycline,2014,24,1676
+Escherichia coli,Tigecycline,2015,6,603
+Escherichia coli,Tigecycline,2016,5,714
+Escherichia coli,Tigecycline,2017,10,553
+Escherichia coli,Tigecycline,2018,9,1028
+Escherichia coli,Tigecycline,2019,17,1153
+Escherichia coli,Tigecycline,2020,28,1352
+Escherichia coli,Tigecycline,2021,22,1236
+Escherichia coli,Tigecycline,2022,48,1125
+Escherichia coli,Vancomycin,2004,193,208
+Escherichia coli,Vancomycin,2005,233,197
+Escherichia coli,Vancomycin,2006,302,358
+Escherichia coli,Vancomycin,2007,303,407
+Escherichia coli,Vancomycin,2008,239,567
+Escherichia coli,Vancomycin,2009,282,688
+Escherichia coli,Vancomycin,2010,186,560
+Escherichia coli,Vancomycin,2011,185,424
+Escherichia coli,Vancomycin,2012,441,849
+Escherichia coli,Vancomycin,2013,515,1157
+Escherichia coli,Vancomycin,2014,490,1210
+Escherichia coli,Vancomycin,2015,160,449
+Escherichia coli,Vancomycin,2016,222,497
+Escherichia coli,Vancomycin,2017,160,403
+Escherichia coli,Vancomycin,2018,275,762
+Escherichia coli,Vancomycin,2019,323,847
+Escherichia coli,Vancomycin,2020,388,992
+Escherichia coli,Vancomycin,2021,321,937
+Escherichia coli,Vancomycin,2022,273,900
+Escherichia coli,Daptomycin,2012,724,0
+Escherichia coli,Daptomycin,2013,946,0
+Escherichia coli,Daptomycin,2014,1018,0
+Escherichia coli,Daptomycin,2018,1037,0
+Escherichia coli,Daptomycin,2019,1170,0
+Escherichia coli,Daptomycin,2020,1380,0
+Escherichia coli,Daptomycin,2021,1258,0
+Escherichia coli,Daptomycin,2022,1173,0
+Escherichia coli,Teicoplanin,2012,201,523
+Escherichia coli,Teicoplanin,2013,184,762
+Escherichia coli,Teicoplanin,2014,240,778
+Escherichia coli,Teicoplanin,2018,233,804
+Escherichia coli,Teicoplanin,2019,271,899
+Escherichia coli,Teicoplanin,2020,324,1056
+Escherichia coli,Teicoplanin,2021,279,979
+Escherichia coli,Teicoplanin,2022,231,942
+Staphylococcus aureus,Amoxycillin clavulanate,2004,1082,1515
+Staphylococcus aureus,Amoxycillin clavulanate,2005,1294,1749
+Staphylococcus aureus,Amoxycillin clavulanate,2006,1543,2368
+Staphylococcus aureus,Amoxycillin clavulanate,2007,2024,3166
+Staphylococcus aureus,Amoxycillin clavulanate,2008,1654,3079
+Staphylococcus aureus,Amoxycillin clavulanate,2009,2028,3424
+Staphylococcus aureus,Amoxycillin clavulanate,2010,1528,2662
+Staphylococcus aureus,Amoxycillin clavulanate,2011,1023,2239
+Staphylococcus aureus,Amoxycillin clavulanate,2012,5984,5690
+Staphylococcus aureus,Amoxycillin clavulanate,2013,7531,7977
+Staphylococcus aureus,Amoxycillin clavulanate,2014,7001,7413
+Staphylococcus aureus,Amoxycillin clavulanate,2015,6585,6952
+Staphylococcus aureus,Amoxycillin clavulanate,2016,6604,7625
+Staphylococcus aureus,Amoxycillin clavulanate,2017,5367,6411
+Staphylococcus aureus,Amoxycillin clavulanate,2019,0,1
+Staphylococcus aureus,Ampicillin,2004,2379,218
+Staphylococcus aureus,Ampicillin,2005,2801,242
+Staphylococcus aureus,Ampicillin,2006,3569,342
+Staphylococcus aureus,Ampicillin,2007,4723,467
+Staphylococcus aureus,Ampicillin,2008,4328,405
+Staphylococcus aureus,Ampicillin,2009,4929,523
+Staphylococcus aureus,Ampicillin,2010,3714,476
+Staphylococcus aureus,Ampicillin,2011,2859,403
+Staphylococcus aureus,Ampicillin,2012,10803,871
+Staphylococcus aureus,Ampicillin,2013,14283,1225
+Staphylococcus aureus,Ampicillin,2014,13200,1214
+Staphylococcus aureus,Ampicillin,2015,12531,1006
+Staphylococcus aureus,Ampicillin,2016,12984,1245
+Staphylococcus aureus,Ampicillin,2017,10697,1081
+Staphylococcus aureus,Ampicillin,2018,6654,0
+Staphylococcus aureus,Ampicillin,2019,9050,0
+Staphylococcus aureus,Ampicillin,2020,9553,0
+Staphylococcus aureus,Ampicillin,2021,9708,0
+Staphylococcus aureus,Ampicillin,2022,9408,0
+Staphylococcus aureus,Ceftriaxone,2004,1893,704
+Staphylococcus aureus,Ceftriaxone,2005,2180,863
+Staphylococcus aureus,Ceftriaxone,2006,2469,1442
+Staphylococcus aureus,Ceftriaxone,2007,3329,1861
+Staphylococcus aureus,Ceftriaxone,2008,3493,1240
+Staphylococcus aureus,Ceftriaxone,2009,3975,1477
+Staphylococcus aureus,Ceftriaxone,2010,3004,1186
+Staphylococcus aureus,Ceftriaxone,2011,1907,1355
+Staphylococcus aureus,Ceftriaxone,2012,9788,1886
+Staphylococcus aureus,Ceftriaxone,2013,13172,2336
+Staphylococcus aureus,Ceftriaxone,2014,12503,1911
+Staphylococcus aureus,Ceftriaxone,2015,11747,1790
+Staphylococcus aureus,Ceftriaxone,2016,10511,3718
+Staphylococcus aureus,Ceftriaxone,2017,7417,4361
+Staphylococcus aureus,Ceftriaxone,2019,0,1
+Staphylococcus aureus,Clindamycin,2012,2312,6515
+Staphylococcus aureus,Clindamycin,2013,2930,8750
+Staphylococcus aureus,Clindamycin,2014,2862,8329
+Staphylococcus aureus,Clindamycin,2015,2435,7723
+Staphylococcus aureus,Clindamycin,2016,2583,8099
+Staphylococcus aureus,Clindamycin,2017,2023,6957
+Staphylococcus aureus,Clindamycin,2018,781,5873
+Staphylococcus aureus,Clindamycin,2019,999,8051
+Staphylococcus aureus,Clindamycin,2020,979,8574
+Staphylococcus aureus,Clindamycin,2021,1010,8698
+Staphylococcus aureus,Clindamycin,2022,786,8622
+Staphylococcus aureus,Erythromycin,2012,5093,3734
+Staphylococcus aureus,Erythromycin,2013,6240,5440
+Staphylococcus aureus,Erythromycin,2014,5590,5601
+Staphylococcus aureus,Erythromycin,2015,4947,5211
+Staphylococcus aureus,Erythromycin,2016,5270,5412
+Staphylococcus aureus,Erythromycin,2017,4060,4920
+Staphylococcus aureus,Erythromycin,2018,2424,4230
+Staphylococcus aureus,Erythromycin,2019,3788,5262
+Staphylococcus aureus,Erythromycin,2020,3722,5831
+Staphylococcus aureus,Erythromycin,2021,3958,5750
+Staphylococcus aureus,Erythromycin,2022,3512,5896
+Staphylococcus aureus,Levofloxacin,2004,1056,1541
+Staphylococcus aureus,Levofloxacin,2005,1253,1790
+Staphylococcus aureus,Levofloxacin,2006,1466,2445
+Staphylococcus aureus,Levofloxacin,2007,1876,3314
+Staphylococcus aureus,Levofloxacin,2008,1586,3147
+Staphylococcus aureus,Levofloxacin,2009,2084,3368
+Staphylococcus aureus,Levofloxacin,2010,1416,2774
+Staphylococcus aureus,Levofloxacin,2011,1062,2200
+Staphylococcus aureus,Levofloxacin,2012,4876,6798
+Staphylococcus aureus,Levofloxacin,2013,6222,9286
+Staphylococcus aureus,Levofloxacin,2014,5914,8500
+Staphylococcus aureus,Levofloxacin,2015,5339,8198
+Staphylococcus aureus,Levofloxacin,2016,5425,8804
+Staphylococcus aureus,Levofloxacin,2017,4246,7532
+Staphylococcus aureus,Levofloxacin,2018,1466,5328
+Staphylococcus aureus,Levofloxacin,2019,2183,6867
+Staphylococcus aureus,Levofloxacin,2020,2200,7353
+Staphylococcus aureus,Levofloxacin,2021,2192,7516
+Staphylococcus aureus,Levofloxacin,2022,1896,7512
+Staphylococcus aureus,Linezolid,2004,0,2597
+Staphylococcus aureus,Linezolid,2005,0,3043
+Staphylococcus aureus,Linezolid,2006,0,3911
+Staphylococcus aureus,Linezolid,2007,0,5190
+Staphylococcus aureus,Linezolid,2008,0,4733
+Staphylococcus aureus,Linezolid,2009,0,5452
+Staphylococcus aureus,Linezolid,2010,0,4188
+Staphylococcus aureus,Linezolid,2011,0,3262
+Staphylococcus aureus,Linezolid,2012,1,11673
+Staphylococcus aureus,Linezolid,2013,5,15503
+Staphylococcus aureus,Linezolid,2014,3,14411
+Staphylococcus aureus,Linezolid,2015,0,13537
+Staphylococcus aureus,Linezolid,2016,10,14219
+Staphylococcus aureus,Linezolid,2017,2,11776
+Staphylococcus aureus,Linezolid,2018,4,6650
+Staphylococcus aureus,Linezolid,2019,1,9049
+Staphylococcus aureus,Linezolid,2020,2,9551
+Staphylococcus aureus,Linezolid,2021,0,9708
+Staphylococcus aureus,Linezolid,2022,4,9404
+Staphylococcus aureus,Meropenem,2004,14,171
+Staphylococcus aureus,Meropenem,2005,30,289
+Staphylococcus aureus,Meropenem,2006,389,1442
+Staphylococcus aureus,Meropenem,2007,955,4096
+Staphylococcus aureus,Meropenem,2008,966,3765
+Staphylococcus aureus,Meropenem,2009,1221,4231
+Staphylococcus aureus,Meropenem,2010,795,3395
+Staphylococcus aureus,Meropenem,2011,537,2725
+Staphylococcus aureus,Meropenem,2012,4616,7058
+Staphylococcus aureus,Meropenem,2013,5007,10501
+Staphylococcus aureus,Meropenem,2014,4533,9881
+Staphylococcus aureus,Meropenem,2015,3767,9770
+Staphylococcus aureus,Meropenem,2016,3455,10774
+Staphylococcus aureus,Meropenem,2017,2475,9303
+Staphylococcus aureus,Meropenem,2018,0,140
+Staphylococcus aureus,Meropenem,2019,0,1
+Staphylococcus aureus,Minocycline,2004,36,2561
+Staphylococcus aureus,Minocycline,2005,42,3001
+Staphylococcus aureus,Minocycline,2006,75,3836
+Staphylococcus aureus,Minocycline,2007,112,5078
+Staphylococcus aureus,Minocycline,2008,169,4564
+Staphylococcus aureus,Minocycline,2009,280,5172
+Staphylococcus aureus,Minocycline,2010,210,3980
+Staphylococcus aureus,Minocycline,2011,40,3222
+Staphylococcus aureus,Minocycline,2012,810,10864
+Staphylococcus aureus,Minocycline,2013,854,14654
+Staphylococcus aureus,Minocycline,2014,666,13748
+Staphylococcus aureus,Minocycline,2015,616,12921
+Staphylococcus aureus,Minocycline,2016,749,13480
+Staphylococcus aureus,Minocycline,2017,553,11225
+Staphylococcus aureus,Penicillin,2004,2373,224
+Staphylococcus aureus,Penicillin,2005,2785,258
+Staphylococcus aureus,Penicillin,2006,3560,351
+Staphylococcus aureus,Penicillin,2007,4687,503
+Staphylococcus aureus,Penicillin,2008,4269,464
+Staphylococcus aureus,Penicillin,2009,4857,595
+Staphylococcus aureus,Penicillin,2010,3661,529
+Staphylococcus aureus,Penicillin,2011,2809,453
+Staphylococcus aureus,Penicillin,2012,2471,376
+Staphylococcus aureus,Penicillin,2013,3261,567
+Staphylococcus aureus,Penicillin,2014,2761,462
+Staphylococcus aureus,Penicillin,2015,2943,436
+Staphylococcus aureus,Penicillin,2016,3020,527
+Staphylococcus aureus,Penicillin,2017,2371,427
+Staphylococcus aureus,Piperacillin tazobactam,2004,1123,1474
+Staphylococcus aureus,Piperacillin tazobactam,2005,1331,1712
+Staphylococcus aureus,Piperacillin tazobactam,2006,1553,2358
+Staphylococcus aureus,Piperacillin tazobactam,2007,2096,3094
+Staphylococcus aureus,Piperacillin tazobactam,2008,1731,3002
+Staphylococcus aureus,Piperacillin tazobactam,2009,2177,3275
+Staphylococcus aureus,Piperacillin tazobactam,2010,1452,2738
+Staphylococcus aureus,Piperacillin tazobactam,2011,1061,2201
+Staphylococcus aureus,Piperacillin tazobactam,2012,5917,5757
+Staphylococcus aureus,Piperacillin tazobactam,2013,8118,7390
+Staphylococcus aureus,Piperacillin tazobactam,2014,8271,6143
+Staphylococcus aureus,Piperacillin tazobactam,2015,7340,6197
+Staphylococcus aureus,Piperacillin tazobactam,2016,7093,7136
+Staphylococcus aureus,Piperacillin tazobactam,2017,5413,6365
+Staphylococcus aureus,Piperacillin tazobactam,2018,140,0
+Staphylococcus aureus,Piperacillin tazobactam,2019,0,1
+Staphylococcus aureus,Tigecycline,2004,0,2597
+Staphylococcus aureus,Tigecycline,2005,0,3043
+Staphylococcus aureus,Tigecycline,2006,7,3904
+Staphylococcus aureus,Tigecycline,2007,5,5185
+Staphylococcus aureus,Tigecycline,2008,0,4733
+Staphylococcus aureus,Tigecycline,2009,11,5441
+Staphylococcus aureus,Tigecycline,2010,2,4188
+Staphylococcus aureus,Tigecycline,2011,0,3262
+Staphylococcus aureus,Tigecycline,2012,46,11628
+Staphylococcus aureus,Tigecycline,2013,255,15253
+Staphylococcus aureus,Tigecycline,2014,210,14204
+Staphylococcus aureus,Tigecycline,2015,36,13501
+Staphylococcus aureus,Tigecycline,2016,28,14201
+Staphylococcus aureus,Tigecycline,2017,71,11707
+Staphylococcus aureus,Tigecycline,2018,24,6630
+Staphylococcus aureus,Tigecycline,2019,49,8999
+Staphylococcus aureus,Tigecycline,2020,61,9492
+Staphylococcus aureus,Tigecycline,2021,40,9668
+Staphylococcus aureus,Tigecycline,2022,29,9379
+Staphylococcus aureus,Vancomycin,2004,0,2597
+Staphylococcus aureus,Vancomycin,2005,0,3043
+Staphylococcus aureus,Vancomycin,2006,0,3911
+Staphylococcus aureus,Vancomycin,2007,1,5189
+Staphylococcus aureus,Vancomycin,2008,0,4733
+Staphylococcus aureus,Vancomycin,2009,0,5452
+Staphylococcus aureus,Vancomycin,2010,0,4190
+Staphylococcus aureus,Vancomycin,2011,0,3262
+Staphylococcus aureus,Vancomycin,2012,0,11674
+Staphylococcus aureus,Vancomycin,2013,0,15508
+Staphylococcus aureus,Vancomycin,2014,4,14410
+Staphylococcus aureus,Vancomycin,2015,2,13535
+Staphylococcus aureus,Vancomycin,2016,0,14229
+Staphylococcus aureus,Vancomycin,2017,0,11778
+Staphylococcus aureus,Vancomycin,2018,0,6654
+Staphylococcus aureus,Vancomycin,2019,1,9049
+Staphylococcus aureus,Vancomycin,2020,0,9553
+Staphylococcus aureus,Vancomycin,2021,1,9707
+Staphylococcus aureus,Vancomycin,2022,1,9407
+Staphylococcus aureus,Ampicillin sulbactam,2018,2308,4346
+Staphylococcus aureus,Ampicillin sulbactam,2019,2509,6541
+Staphylococcus aureus,Ampicillin sulbactam,2020,2251,7302
+Staphylococcus aureus,Ampicillin sulbactam,2021,2233,7475
+Staphylococcus aureus,Ampicillin sulbactam,2022,1787,7621
+Staphylococcus aureus,Ceftaroline,2012,649,8178
+Staphylococcus aureus,Ceftaroline,2013,880,10800
+Staphylococcus aureus,Ceftaroline,2014,737,10454
+Staphylococcus aureus,Ceftaroline,2015,620,9538
+Staphylococcus aureus,Ceftaroline,2016,522,10160
+Staphylococcus aureus,Ceftaroline,2017,590,8390
+Staphylococcus aureus,Ceftaroline,2018,136,6518
+Staphylococcus aureus,Ceftaroline,2019,290,8760
+Staphylococcus aureus,Ceftaroline,2020,318,9235
+Staphylococcus aureus,Ceftaroline,2021,247,9461
+Staphylococcus aureus,Ceftaroline,2022,99,9309
+Staphylococcus aureus,Daptomycin,2012,4,8823
+Staphylococcus aureus,Daptomycin,2013,70,11610
+Staphylococcus aureus,Daptomycin,2014,29,11162
+Staphylococcus aureus,Daptomycin,2015,16,10142
+Staphylococcus aureus,Daptomycin,2016,6,10676
+Staphylococcus aureus,Daptomycin,2017,10,8970
+Staphylococcus aureus,Daptomycin,2018,6,6648
+Staphylococcus aureus,Daptomycin,2019,32,9018
+Staphylococcus aureus,Daptomycin,2020,30,9523
+Staphylococcus aureus,Daptomycin,2021,5,9703
+Staphylococcus aureus,Daptomycin,2022,12,9396
+Staphylococcus aureus,Doripenem,2012,4238,4589
+Staphylococcus aureus,Doripenem,2013,4824,6856
+Staphylococcus aureus,Doripenem,2014,3935,7256
+Staphylococcus aureus,Doripenem,2015,3676,6482
+Staphylococcus aureus,Doripenem,2016,2995,7687
+Staphylococcus aureus,Doripenem,2017,2130,6850
+Staphylococcus aureus,Gentamicin,2014,1709,9482
+Staphylococcus aureus,Gentamicin,2015,1486,8672
+Staphylococcus aureus,Gentamicin,2016,1579,9103
+Staphylococcus aureus,Gentamicin,2017,1344,7636
+Staphylococcus aureus,Gentamicin,2018,540,6254
+Staphylococcus aureus,Gentamicin,2019,847,8203
+Staphylococcus aureus,Gentamicin,2020,952,8601
+Staphylococcus aureus,Gentamicin,2021,923,8785
+Staphylococcus aureus,Gentamicin,2022,825,8583
+Staphylococcus aureus,Moxifloxacin,2012,3897,4930
+Staphylococcus aureus,Moxifloxacin,2013,4992,6688
+Staphylococcus aureus,Moxifloxacin,2014,4836,6355
+Staphylococcus aureus,Moxifloxacin,2015,4190,5968
+Staphylococcus aureus,Moxifloxacin,2016,4391,6291
+Staphylococcus aureus,Moxifloxacin,2017,3530,5450
+Staphylococcus aureus,Oxacillin,2012,5253,3574
+Staphylococcus aureus,Oxacillin,2013,6666,5014
+Staphylococcus aureus,Oxacillin,2014,6638,4553
+Staphylococcus aureus,Oxacillin,2015,6112,4046
+Staphylococcus aureus,Oxacillin,2016,6371,4311
+Staphylococcus aureus,Oxacillin,2017,5118,3862
+Staphylococcus aureus,Oxacillin,2018,1917,4737
+Staphylococcus aureus,Oxacillin,2019,2690,6360
+Staphylococcus aureus,Oxacillin,2020,2694,6859
+Staphylococcus aureus,Oxacillin,2021,2711,6997
+Staphylococcus aureus,Oxacillin,2022,2268,7140
+Staphylococcus aureus,Teicoplanin,2012,4,8823
+Staphylococcus aureus,Teicoplanin,2013,8,11672
+Staphylococcus aureus,Teicoplanin,2014,3,11188
+Staphylococcus aureus,Teicoplanin,2015,2,10156
+Staphylococcus aureus,Teicoplanin,2016,0,10682
+Staphylococcus aureus,Teicoplanin,2017,2,8978
+Staphylococcus aureus,Teicoplanin,2018,1,6653
+Staphylococcus aureus,Teicoplanin,2019,1,9049
+Staphylococcus aureus,Teicoplanin,2020,1,9552
+Staphylococcus aureus,Teicoplanin,2021,2,9706
+Staphylococcus aureus,Teicoplanin,2022,0,9408
+Staphylococcus aureus,Trimethoprim sulfa,2014,391,10800
+Staphylococcus aureus,Trimethoprim sulfa,2015,318,9840
+Staphylococcus aureus,Trimethoprim sulfa,2016,372,10310
+Staphylococcus aureus,Trimethoprim sulfa,2017,296,8684
+Staphylococcus aureus,Trimethoprim sulfa,2018,134,6520
+Staphylococcus aureus,Trimethoprim sulfa,2019,112,8938
+Staphylococcus aureus,Trimethoprim sulfa,2020,150,9403
+Staphylococcus aureus,Trimethoprim sulfa,2021,118,9590
+Staphylococcus aureus,Trimethoprim sulfa,2022,87,9321
+Staphylococcus aureus,Ceftazidime avibactam,2012,5231,3596
+Staphylococcus aureus,Ceftazidime avibactam,2013,6623,5057
+Staphylococcus aureus,Ceftazidime avibactam,2014,6507,4684
+Staphylococcus aureus,Ceftazidime avibactam,2015,5894,4264
+Staphylococcus aureus,Ceftazidime avibactam,2016,6029,4653
+Staphylococcus aureus,Ceftazidime avibactam,2017,4022,4958
+Staphylococcus aureus,Ceftazidime avibactam,2019,0,1
+Enterococcus faecium,Amoxycillin clavulanate,2004,311,90
+Enterococcus faecium,Amoxycillin clavulanate,2005,360,70
+Enterococcus faecium,Amoxycillin clavulanate,2006,551,109
+Enterococcus faecium,Amoxycillin clavulanate,2007,577,133
+Enterococcus faecium,Amoxycillin clavulanate,2008,633,173
+Enterococcus faecium,Amoxycillin clavulanate,2009,803,167
+Enterococcus faecium,Amoxycillin clavulanate,2010,597,149
+Enterococcus faecium,Amoxycillin clavulanate,2011,481,128
+Enterococcus faecium,Amoxycillin clavulanate,2012,474,816
+Enterococcus faecium,Amoxycillin clavulanate,2013,612,1060
+Enterococcus faecium,Amoxycillin clavulanate,2014,592,1108
+Enterococcus faecium,Amoxycillin clavulanate,2015,504,105
+Enterococcus faecium,Amoxycillin clavulanate,2016,615,104
+Enterococcus faecium,Amoxycillin clavulanate,2017,468,95
+Enterococcus faecium,Ampicillin,2004,314,87
+Enterococcus faecium,Ampicillin,2005,368,62
+Enterococcus faecium,Ampicillin,2006,567,93
+Enterococcus faecium,Ampicillin,2007,603,107
+Enterococcus faecium,Ampicillin,2008,672,134
+Enterococcus faecium,Ampicillin,2009,819,151
+Enterococcus faecium,Ampicillin,2010,620,126
+Enterococcus faecium,Ampicillin,2011,511,98
+Enterococcus faecium,Ampicillin,2012,1119,171
+Enterococcus faecium,Ampicillin,2013,1449,223
+Enterococcus faecium,Ampicillin,2014,1464,236
+Enterococcus faecium,Ampicillin,2015,532,77
+Enterococcus faecium,Ampicillin,2016,620,99
+Enterococcus faecium,Ampicillin,2017,487,76
+Enterococcus faecium,Ampicillin,2018,888,149
+Enterococcus faecium,Ampicillin,2019,997,173
+Enterococcus faecium,Ampicillin,2020,1176,204
+Enterococcus faecium,Ampicillin,2021,1101,157
+Enterococcus faecium,Ampicillin,2022,998,175
+Enterococcus faecium,Ceftriaxone,2004,375,26
+Enterococcus faecium,Ceftriaxone,2005,405,25
+Enterococcus faecium,Ceftriaxone,2006,611,49
+Enterococcus faecium,Ceftriaxone,2007,672,38
+Enterococcus faecium,Ceftriaxone,2008,752,54
+Enterococcus faecium,Ceftriaxone,2009,910,60
+Enterococcus faecium,Ceftriaxone,2010,695,51
+Enterococcus faecium,Ceftriaxone,2011,565,44
+Enterococcus faecium,Ceftriaxone,2012,528,38
+Enterococcus faecium,Ceftriaxone,2013,686,40
+Enterococcus faecium,Ceftriaxone,2014,666,46
+Enterococcus faecium,Ceftriaxone,2015,567,42
+Enterococcus faecium,Ceftriaxone,2016,669,50
+Enterococcus faecium,Ceftriaxone,2017,516,47
+Enterococcus faecium,Clindamycin,2014,30,0
+Enterococcus faecium,Clindamycin,2018,1037,0
+Enterococcus faecium,Clindamycin,2019,1170,0
+Enterococcus faecium,Clindamycin,2020,1380,0
+Enterococcus faecium,Clindamycin,2021,1258,0
+Enterococcus faecium,Clindamycin,2022,1173,0
+Enterococcus faecium,Erythromycin,2012,696,28
+Enterococcus faecium,Erythromycin,2013,915,31
+Enterococcus faecium,Erythromycin,2014,984,34
+Enterococcus faecium,Erythromycin,2018,978,59
+Enterococcus faecium,Erythromycin,2019,1109,61
+Enterococcus faecium,Erythromycin,2020,1320,60
+Enterococcus faecium,Erythromycin,2021,1219,39
+Enterococcus faecium,Erythromycin,2022,1103,70
+Enterococcus faecium,Levofloxacin,2004,332,69
+Enterococcus faecium,Levofloxacin,2005,373,57
+Enterococcus faecium,Levofloxacin,2006,582,78
+Enterococcus faecium,Levofloxacin,2007,604,106
+Enterococcus faecium,Levofloxacin,2008,691,115
+Enterococcus faecium,Levofloxacin,2009,865,105
+Enterococcus faecium,Levofloxacin,2010,646,100
+Enterococcus faecium,Levofloxacin,2011,521,88
+Enterococcus faecium,Levofloxacin,2012,1156,134
+Enterococcus faecium,Levofloxacin,2013,1480,192
+Enterococcus faecium,Levofloxacin,2014,1487,213
+Enterococcus faecium,Levofloxacin,2015,537,72
+Enterococcus faecium,Levofloxacin,2016,638,81
+Enterococcus faecium,Levofloxacin,2017,491,72
+Enterococcus faecium,Levofloxacin,2018,903,134
+Enterococcus faecium,Levofloxacin,2019,1014,156
+Enterococcus faecium,Levofloxacin,2020,1181,199
+Enterococcus faecium,Levofloxacin,2021,1121,136
+Enterococcus faecium,Levofloxacin,2022,1004,169
+Enterococcus faecium,Linezolid,2004,8,393
+Enterococcus faecium,Linezolid,2005,3,427
+Enterococcus faecium,Linezolid,2006,4,656
+Enterococcus faecium,Linezolid,2007,7,703
+Enterococcus faecium,Linezolid,2008,8,798
+Enterococcus faecium,Linezolid,2009,11,959
+Enterococcus faecium,Linezolid,2010,6,740
+Enterococcus faecium,Linezolid,2011,5,604
+Enterococcus faecium,Linezolid,2012,45,1245
+Enterococcus faecium,Linezolid,2013,13,1659
+Enterococcus faecium,Linezolid,2014,27,1673
+Enterococcus faecium,Linezolid,2015,5,604
+Enterococcus faecium,Linezolid,2016,5,714
+Enterococcus faecium,Linezolid,2017,10,553
+Enterococcus faecium,Linezolid,2018,12,1025
+Enterococcus faecium,Linezolid,2019,18,1152
+Enterococcus faecium,Linezolid,2020,37,1343
+Enterococcus faecium,Linezolid,2021,30,1228
+Enterococcus faecium,Linezolid,2022,18,1155
+Enterococcus faecium,Meropenem,2004,21,5
+Enterococcus faecium,Meropenem,2005,29,1
+Enterococcus faecium,Meropenem,2006,283,17
+Enterococcus faecium,Meropenem,2007,631,54
+Enterococcus faecium,Meropenem,2008,723,81
+Enterococcus faecium,Meropenem,2009,896,74
+Enterococcus faecium,Meropenem,2010,664,82
+Enterococcus faecium,Meropenem,2011,552,57
+Enterococcus faecium,Meropenem,2012,1169,121
+Enterococcus faecium,Meropenem,2013,1588,84
+Enterococcus faecium,Meropenem,2014,1607,93
+Enterococcus faecium,Meropenem,2015,570,39
+Enterococcus faecium,Meropenem,2016,672,47
+Enterococcus faecium,Meropenem,2017,526,37
+Enterococcus faecium,Minocycline,2004,128,273
+Enterococcus faecium,Minocycline,2005,107,323
+Enterococcus faecium,Minocycline,2006,156,504
+Enterococcus faecium,Minocycline,2007,217,493
+Enterococcus faecium,Minocycline,2008,260,546
+Enterococcus faecium,Minocycline,2009,302,668
+Enterococcus faecium,Minocycline,2010,289,457
+Enterococcus faecium,Minocycline,2011,194,415
+Enterococcus faecium,Minocycline,2012,515,775
+Enterococcus faecium,Minocycline,2013,674,998
+Enterococcus faecium,Minocycline,2014,664,1036
+Enterococcus faecium,Minocycline,2015,206,403
+Enterococcus faecium,Minocycline,2016,236,483
+Enterococcus faecium,Minocycline,2017,175,388
+Enterococcus faecium,Penicillin,2004,331,70
+Enterococcus faecium,Penicillin,2005,371,59
+Enterococcus faecium,Penicillin,2006,575,85
+Enterococcus faecium,Penicillin,2007,604,106
+Enterococcus faecium,Penicillin,2008,666,140
+Enterococcus faecium,Penicillin,2009,835,135
+Enterococcus faecium,Penicillin,2010,615,131
+Enterococcus faecium,Penicillin,2011,499,110
+Enterococcus faecium,Penicillin,2012,488,78
+Enterococcus faecium,Penicillin,2013,630,96
+Enterococcus faecium,Penicillin,2014,584,98
+Enterococcus faecium,Penicillin,2015,532,77
+Enterococcus faecium,Penicillin,2016,634,85
+Enterococcus faecium,Penicillin,2017,485,78
+Enterococcus faecium,Piperacillin tazobactam,2004,349,52
+Enterococcus faecium,Piperacillin tazobactam,2005,393,37
+Enterococcus faecium,Piperacillin tazobactam,2006,601,59
+Enterococcus faecium,Piperacillin tazobactam,2007,644,66
+Enterococcus faecium,Piperacillin tazobactam,2008,733,73
+Enterococcus faecium,Piperacillin tazobactam,2009,897,73
+Enterococcus faecium,Piperacillin tazobactam,2010,676,70
+Enterococcus faecium,Piperacillin tazobactam,2011,541,68
+Enterococcus faecium,Piperacillin tazobactam,2012,1183,107
+Enterococcus faecium,Piperacillin tazobactam,2013,1564,108
+Enterococcus faecium,Piperacillin tazobactam,2014,1573,127
+Enterococcus faecium,Piperacillin tazobactam,2015,563,46
+Enterococcus faecium,Piperacillin tazobactam,2016,657,62
+Enterococcus faecium,Piperacillin tazobactam,2017,508,55
+Enterococcus faecium,Tigecycline,2004,0,401
+Enterococcus faecium,Tigecycline,2005,0,430
+Enterococcus faecium,Tigecycline,2006,0,660
+Enterococcus faecium,Tigecycline,2007,1,709
+Enterococcus faecium,Tigecycline,2008,6,800
+Enterococcus faecium,Tigecycline,2009,5,965
+Enterococcus faecium,Tigecycline,2010,1,745
+Enterococcus faecium,Tigecycline,2011,4,605
+Enterococcus faecium,Tigecycline,2012,52,1238
+Enterococcus faecium,Tigecycline,2013,57,1615
+Enterococcus faecium,Tigecycline,2014,24,1676
+Enterococcus faecium,Tigecycline,2015,6,603
+Enterococcus faecium,Tigecycline,2016,5,714
+Enterococcus faecium,Tigecycline,2017,10,553
+Enterococcus faecium,Tigecycline,2018,9,1028
+Enterococcus faecium,Tigecycline,2019,17,1153
+Enterococcus faecium,Tigecycline,2020,28,1352
+Enterococcus faecium,Tigecycline,2021,22,1236
+Enterococcus faecium,Tigecycline,2022,48,1125
+Enterococcus faecium,Vancomycin,2004,193,208
+Enterococcus faecium,Vancomycin,2005,233,197
+Enterococcus faecium,Vancomycin,2006,302,358
+Enterococcus faecium,Vancomycin,2007,303,407
+Enterococcus faecium,Vancomycin,2008,239,567
+Enterococcus faecium,Vancomycin,2009,282,688
+Enterococcus faecium,Vancomycin,2010,186,560
+Enterococcus faecium,Vancomycin,2011,185,424
+Enterococcus faecium,Vancomycin,2012,441,849
+Enterococcus faecium,Vancomycin,2013,515,1157
+Enterococcus faecium,Vancomycin,2014,490,1210
+Enterococcus faecium,Vancomycin,2015,160,449
+Enterococcus faecium,Vancomycin,2016,222,497
+Enterococcus faecium,Vancomycin,2017,160,403
+Enterococcus faecium,Vancomycin,2018,275,762
+Enterococcus faecium,Vancomycin,2019,323,847
+Enterococcus faecium,Vancomycin,2020,388,992
+Enterococcus faecium,Vancomycin,2021,321,937
+Enterococcus faecium,Vancomycin,2022,273,900
+Enterococcus faecium,Ampicillin sulbactam,2018,882,155
+Enterococcus faecium,Ampicillin sulbactam,2019,1002,168
+Enterococcus faecium,Ampicillin sulbactam,2020,1155,225
+Enterococcus faecium,Ampicillin sulbactam,2021,1089,169
+Enterococcus faecium,Ampicillin sulbactam,2022,989,184
+Enterococcus faecium,Gentamicin,2014,21,9
+Enterococcus faecium,Gentamicin,2018,414,623
+Enterococcus faecium,Gentamicin,2019,516,654
+Enterococcus faecium,Gentamicin,2020,565,815
+Enterococcus faecium,Gentamicin,2021,514,744
+Enterococcus faecium,Gentamicin,2022,457,716
+Enterococcus faecium,Oxacillin,2014,30,0
+Enterococcus faecium,Oxacillin,2018,1037,0
+Enterococcus faecium,Oxacillin,2019,1170,0
+Enterococcus faecium,Oxacillin,2020,1380,0
+Enterococcus faecium,Oxacillin,2021,1258,0
+Enterococcus faecium,Oxacillin,2022,1173,0
+Enterococcus faecium,Teicoplanin,2012,201,523
+Enterococcus faecium,Teicoplanin,2013,184,762
+Enterococcus faecium,Teicoplanin,2014,240,778
+Enterococcus faecium,Teicoplanin,2018,233,804
+Enterococcus faecium,Teicoplanin,2019,271,899
+Enterococcus faecium,Teicoplanin,2020,324,1056
+Enterococcus faecium,Teicoplanin,2021,279,979
+Enterococcus faecium,Teicoplanin,2022,231,942
+Acinetobacter baumannii,Amikacin,2004,316,1007
+Acinetobacter baumannii,Amikacin,2005,367,977
+Acinetobacter baumannii,Amikacin,2006,591,1276
+Acinetobacter baumannii,Amikacin,2007,900,1537
+Acinetobacter baumannii,Amikacin,2008,1084,1290
+Acinetobacter baumannii,Amikacin,2009,1341,1405
+Acinetobacter baumannii,Amikacin,2010,1013,1136
+Acinetobacter baumannii,Amikacin,2011,537,929
+Acinetobacter baumannii,Amikacin,2012,806,837
+Acinetobacter baumannii,Amikacin,2013,993,898
+Acinetobacter baumannii,Amikacin,2014,1195,1001
+Acinetobacter baumannii,Amikacin,2015,989,854
+Acinetobacter baumannii,Amikacin,2016,945,793
+Acinetobacter baumannii,Amikacin,2017,383,502
+Acinetobacter baumannii,Amikacin,2018,1114,783
+Acinetobacter baumannii,Amikacin,2019,2142,1479
+Acinetobacter baumannii,Amikacin,2020,1962,1302
+Acinetobacter baumannii,Amikacin,2021,2164,1339
+Acinetobacter baumannii,Amikacin,2022,1797,1246
+Acinetobacter baumannii,Cefepime,2004,726,597
+Acinetobacter baumannii,Cefepime,2005,691,653
+Acinetobacter baumannii,Cefepime,2006,1046,821
+Acinetobacter baumannii,Cefepime,2007,1356,1081
+Acinetobacter baumannii,Cefepime,2008,1315,1059
+Acinetobacter baumannii,Cefepime,2009,1536,1210
+Acinetobacter baumannii,Cefepime,2010,1256,893
+Acinetobacter baumannii,Cefepime,2011,748,718
+Acinetobacter baumannii,Cefepime,2012,1131,512
+Acinetobacter baumannii,Cefepime,2013,1347,544
+Acinetobacter baumannii,Cefepime,2014,1542,654
+Acinetobacter baumannii,Cefepime,2015,1287,556
+Acinetobacter baumannii,Cefepime,2016,1205,533
+Acinetobacter baumannii,Cefepime,2017,545,340
+Acinetobacter baumannii,Cefepime,2018,1374,523
+Acinetobacter baumannii,Cefepime,2019,2643,978
+Acinetobacter baumannii,Cefepime,2020,2358,906
+Acinetobacter baumannii,Cefepime,2021,2569,934
+Acinetobacter baumannii,Cefepime,2022,2095,948
+Acinetobacter baumannii,Ceftazidime,2004,732,591
+Acinetobacter baumannii,Ceftazidime,2005,701,643
+Acinetobacter baumannii,Ceftazidime,2006,1081,786
+Acinetobacter baumannii,Ceftazidime,2007,1437,1000
+Acinetobacter baumannii,Ceftazidime,2008,1443,931
+Acinetobacter baumannii,Ceftazidime,2009,1694,1052
+Acinetobacter baumannii,Ceftazidime,2010,1364,785
+Acinetobacter baumannii,Ceftazidime,2011,765,701
+Acinetobacter baumannii,Ceftazidime,2012,1105,538
+Acinetobacter baumannii,Ceftazidime,2013,1350,541
+Acinetobacter baumannii,Ceftazidime,2014,1506,690
+Acinetobacter baumannii,Ceftazidime,2015,1242,601
+Acinetobacter baumannii,Ceftazidime,2016,1175,563
+Acinetobacter baumannii,Ceftazidime,2017,515,370
+Acinetobacter baumannii,Ceftazidime,2018,1354,543
+Acinetobacter baumannii,Ceftazidime,2019,2581,1040
+Acinetobacter baumannii,Ceftazidime,2020,2331,933
+Acinetobacter baumannii,Ceftazidime,2021,2534,969
+Acinetobacter baumannii,Ceftazidime,2022,2091,952
+Acinetobacter baumannii,Ceftriaxone,2004,962,361
+Acinetobacter baumannii,Ceftriaxone,2005,936,408
+Acinetobacter baumannii,Ceftriaxone,2006,1410,457
+Acinetobacter baumannii,Ceftriaxone,2007,1878,559
+Acinetobacter baumannii,Ceftriaxone,2008,1863,511
+Acinetobacter baumannii,Ceftriaxone,2009,2226,520
+Acinetobacter baumannii,Ceftriaxone,2010,1773,376
+Acinetobacter baumannii,Ceftriaxone,2011,1025,441
+Acinetobacter baumannii,Ceftriaxone,2012,880,242
+Acinetobacter baumannii,Ceftriaxone,2013,963,230
+Acinetobacter baumannii,Ceftriaxone,2014,833,166
+Acinetobacter baumannii,Ceftriaxone,2015,948,240
+Acinetobacter baumannii,Ceftriaxone,2016,1363,375
+Acinetobacter baumannii,Ceftriaxone,2017,643,242
+Acinetobacter baumannii,Imipenem,2004,322,995
+Acinetobacter baumannii,Imipenem,2005,297,1010
+Acinetobacter baumannii,Imipenem,2006,379,721
+Acinetobacter baumannii,Imipenem,2007,26,46
+Acinetobacter baumannii,Imipenem,2012,352,169
+Acinetobacter baumannii,Imipenem,2013,454,244
+Acinetobacter baumannii,Imipenem,2014,782,415
+Acinetobacter baumannii,Imipenem,2015,453,233
+Acinetobacter baumannii,Imipenem,2016,414,225
+Acinetobacter baumannii,Imipenem,2017,6,4
+Acinetobacter baumannii,Imipenem,2018,1314,583
+Acinetobacter baumannii,Imipenem,2019,2537,1084
+Acinetobacter baumannii,Imipenem,2020,2287,977
+Acinetobacter baumannii,Imipenem,2021,2509,994
+Acinetobacter baumannii,Imipenem,2022,2043,1000
+Acinetobacter baumannii,Levofloxacin,2004,702,621
+Acinetobacter baumannii,Levofloxacin,2005,671,673
+Acinetobacter baumannii,Levofloxacin,2006,1038,829
+Acinetobacter baumannii,Levofloxacin,2007,1364,1073
+Acinetobacter baumannii,Levofloxacin,2008,1383,991
+Acinetobacter baumannii,Levofloxacin,2009,1659,1087
+Acinetobacter baumannii,Levofloxacin,2010,1311,838
+Acinetobacter baumannii,Levofloxacin,2011,754,712
+Acinetobacter baumannii,Levofloxacin,2012,1129,514
+Acinetobacter baumannii,Levofloxacin,2013,1375,516
+Acinetobacter baumannii,Levofloxacin,2014,1566,630
+Acinetobacter baumannii,Levofloxacin,2015,1253,590
+Acinetobacter baumannii,Levofloxacin,2016,1205,533
+Acinetobacter baumannii,Levofloxacin,2017,535,350
+Acinetobacter baumannii,Levofloxacin,2018,1371,526
+Acinetobacter baumannii,Levofloxacin,2019,2563,1058
+Acinetobacter baumannii,Levofloxacin,2020,2325,939
+Acinetobacter baumannii,Levofloxacin,2021,2512,991
+Acinetobacter baumannii,Levofloxacin,2022,2085,958
+Acinetobacter baumannii,Meropenem,2004,1,5
+Acinetobacter baumannii,Meropenem,2005,24,13
+Acinetobacter baumannii,Meropenem,2006,369,398
+Acinetobacter baumannii,Meropenem,2007,1055,1310
+Acinetobacter baumannii,Meropenem,2008,1152,1222
+Acinetobacter baumannii,Meropenem,2009,1402,1344
+Acinetobacter baumannii,Meropenem,2010,1134,1015
+Acinetobacter baumannii,Meropenem,2011,681,785
+Acinetobacter baumannii,Meropenem,2012,1068,575
+Acinetobacter baumannii,Meropenem,2013,1263,628
+Acinetobacter baumannii,Meropenem,2014,1484,712
+Acinetobacter baumannii,Meropenem,2015,1246,597
+Acinetobacter baumannii,Meropenem,2016,1160,578
+Acinetobacter baumannii,Meropenem,2017,522,363
+Acinetobacter baumannii,Meropenem,2018,1331,566
+Acinetobacter baumannii,Meropenem,2019,2570,1051
+Acinetobacter baumannii,Meropenem,2020,2284,980
+Acinetobacter baumannii,Meropenem,2021,2523,980
+Acinetobacter baumannii,Meropenem,2022,2061,982
+Acinetobacter baumannii,Minocycline,2004,147,1176
+Acinetobacter baumannii,Minocycline,2005,122,1222
+Acinetobacter baumannii,Minocycline,2006,188,1679
+Acinetobacter baumannii,Minocycline,2007,318,2119
+Acinetobacter baumannii,Minocycline,2008,378,1996
+Acinetobacter baumannii,Minocycline,2009,513,2233
+Acinetobacter baumannii,Minocycline,2010,500,1649
+Acinetobacter baumannii,Minocycline,2011,261,1205
+Acinetobacter baumannii,Minocycline,2012,255,867
+Acinetobacter baumannii,Minocycline,2013,320,873
+Acinetobacter baumannii,Minocycline,2014,278,721
+Acinetobacter baumannii,Minocycline,2015,306,851
+Acinetobacter baumannii,Minocycline,2016,242,857
+Acinetobacter baumannii,Minocycline,2017,158,717
+Acinetobacter baumannii,Piperacillin tazobactam,2004,609,714
+Acinetobacter baumannii,Piperacillin tazobactam,2005,600,744
+Acinetobacter baumannii,Piperacillin tazobactam,2006,977,890
+Acinetobacter baumannii,Piperacillin tazobactam,2007,1342,1095
+Acinetobacter baumannii,Piperacillin tazobactam,2008,1500,874
+Acinetobacter baumannii,Piperacillin tazobactam,2009,1755,991
+Acinetobacter baumannii,Piperacillin tazobactam,2010,1378,771
+Acinetobacter baumannii,Piperacillin tazobactam,2011,747,719
+Acinetobacter baumannii,Piperacillin tazobactam,2012,1140,503
+Acinetobacter baumannii,Piperacillin tazobactam,2013,1384,507
+Acinetobacter baumannii,Piperacillin tazobactam,2014,1602,594
+Acinetobacter baumannii,Piperacillin tazobactam,2015,1296,547
+Acinetobacter baumannii,Piperacillin tazobactam,2016,1215,523
+Acinetobacter baumannii,Piperacillin tazobactam,2017,522,363
+Acinetobacter baumannii,Piperacillin tazobactam,2018,1403,494
+Acinetobacter baumannii,Piperacillin tazobactam,2019,2709,912
+Acinetobacter baumannii,Piperacillin tazobactam,2020,2396,868
+Acinetobacter baumannii,Piperacillin tazobactam,2021,2636,867
+Acinetobacter baumannii,Piperacillin tazobactam,2022,2151,892
+Acinetobacter baumannii,Tigecycline,2004,17,1306
+Acinetobacter baumannii,Tigecycline,2005,25,1319
+Acinetobacter baumannii,Tigecycline,2006,62,1805
+Acinetobacter baumannii,Tigecycline,2007,75,2362
+Acinetobacter baumannii,Tigecycline,2008,114,2260
+Acinetobacter baumannii,Tigecycline,2009,118,2628
+Acinetobacter baumannii,Tigecycline,2010,113,2036
+Acinetobacter baumannii,Tigecycline,2011,22,1444
+Acinetobacter baumannii,Tigecycline,2012,148,1495
+Acinetobacter baumannii,Tigecycline,2013,97,1794
+Acinetobacter baumannii,Tigecycline,2014,113,2083
+Acinetobacter baumannii,Tigecycline,2015,63,1780
+Acinetobacter baumannii,Tigecycline,2016,31,1707
+Acinetobacter baumannii,Tigecycline,2017,21,864
+Acinetobacter baumannii,Tigecycline,2018,81,1816
+Acinetobacter baumannii,Tigecycline,2019,178,3443
+Acinetobacter baumannii,Tigecycline,2020,235,3029
+Acinetobacter baumannii,Tigecycline,2021,330,3173
+Acinetobacter baumannii,Tigecycline,2022,222,2821
+Acinetobacter baumannii,Ampicillin sulbactam,2018,1340,557
+Acinetobacter baumannii,Ampicillin sulbactam,2019,2376,1245
+Acinetobacter baumannii,Ampicillin sulbactam,2020,2117,1147
+Acinetobacter baumannii,Ampicillin sulbactam,2021,2375,1128
+Acinetobacter baumannii,Ampicillin sulbactam,2022,1880,1163
+Acinetobacter baumannii,Ciprofloxacin,2018,1403,494
+Acinetobacter baumannii,Ciprofloxacin,2019,2678,943
+Acinetobacter baumannii,Ciprofloxacin,2020,2383,881
+Acinetobacter baumannii,Ciprofloxacin,2021,2574,929
+Acinetobacter baumannii,Ciprofloxacin,2022,2136,907
+Acinetobacter baumannii,Colistin,2014,1197,0
+Acinetobacter baumannii,Colistin,2015,686,0
+Acinetobacter baumannii,Colistin,2016,639,0
+Acinetobacter baumannii,Colistin,2017,10,0
+Acinetobacter baumannii,Colistin,2018,1897,0
+Acinetobacter baumannii,Colistin,2019,3621,0
+Acinetobacter baumannii,Colistin,2020,3264,0
+Acinetobacter baumannii,Colistin,2021,3503,0
+Acinetobacter baumannii,Colistin,2022,3043,0
+Acinetobacter baumannii,Doripenem,2012,352,169
+Acinetobacter baumannii,Doripenem,2013,460,238
+Acinetobacter baumannii,Doripenem,2014,793,404
+Acinetobacter baumannii,Doripenem,2015,457,229
+Acinetobacter baumannii,Doripenem,2016,417,222
+Acinetobacter baumannii,Doripenem,2017,6,4
+Acinetobacter baumannii,Gentamicin,2018,1251,646
+Acinetobacter baumannii,Gentamicin,2019,2350,1271
+Acinetobacter baumannii,Gentamicin,2020,2088,1176
+Acinetobacter baumannii,Gentamicin,2021,2311,1192
+Acinetobacter baumannii,Gentamicin,2022,1953,1090
+Acinetobacter baumannii,Trimethoprim sulfa,2018,1201,696
+Acinetobacter baumannii,Trimethoprim sulfa,2019,2280,1341
+Acinetobacter baumannii,Trimethoprim sulfa,2020,1994,1270
+Acinetobacter baumannii,Trimethoprim sulfa,2021,2123,1380
+Acinetobacter baumannii,Trimethoprim sulfa,2022,1829,1214
+Pseudomonas aeruginosa,Amikacin,2004,105,1972
+Pseudomonas aeruginosa,Amikacin,2005,149,2103
+Pseudomonas aeruginosa,Amikacin,2006,270,2886
+Pseudomonas aeruginosa,Amikacin,2007,395,3698
+Pseudomonas aeruginosa,Amikacin,2008,551,3300
+Pseudomonas aeruginosa,Amikacin,2009,630,3674
+Pseudomonas aeruginosa,Amikacin,2010,405,2859
+Pseudomonas aeruginosa,Amikacin,2011,181,2367
+Pseudomonas aeruginosa,Amikacin,2012,259,3567
+Pseudomonas aeruginosa,Amikacin,2013,384,4816
+Pseudomonas aeruginosa,Amikacin,2014,637,6327
+Pseudomonas aeruginosa,Amikacin,2015,552,5953
+Pseudomonas aeruginosa,Amikacin,2016,585,6743
+Pseudomonas aeruginosa,Amikacin,2017,509,5895
+Pseudomonas aeruginosa,Amikacin,2018,575,5092
+Pseudomonas aeruginosa,Amikacin,2019,852,7720
+Pseudomonas aeruginosa,Amikacin,2020,877,8226
+Pseudomonas aeruginosa,Amikacin,2021,853,8916
+Pseudomonas aeruginosa,Amikacin,2022,705,8051
+Pseudomonas aeruginosa,Cefepime,2004,520,1557
+Pseudomonas aeruginosa,Cefepime,2005,535,1717
+Pseudomonas aeruginosa,Cefepime,2006,794,2362
+Pseudomonas aeruginosa,Cefepime,2007,1012,3081
+Pseudomonas aeruginosa,Cefepime,2008,1123,2728
+Pseudomonas aeruginosa,Cefepime,2009,1238,3066
+Pseudomonas aeruginosa,Cefepime,2010,962,2302
+Pseudomonas aeruginosa,Cefepime,2011,606,1942
+Pseudomonas aeruginosa,Cefepime,2012,787,3039
+Pseudomonas aeruginosa,Cefepime,2013,1177,4023
+Pseudomonas aeruginosa,Cefepime,2014,1602,5362
+Pseudomonas aeruginosa,Cefepime,2015,1453,5052
+Pseudomonas aeruginosa,Cefepime,2016,1571,5757
+Pseudomonas aeruginosa,Cefepime,2017,1390,5014
+Pseudomonas aeruginosa,Cefepime,2018,1503,5507
+Pseudomonas aeruginosa,Cefepime,2019,2278,7951
+Pseudomonas aeruginosa,Cefepime,2020,2208,8512
+Pseudomonas aeruginosa,Cefepime,2021,2573,8996
+Pseudomonas aeruginosa,Cefepime,2022,1981,8277
+Pseudomonas aeruginosa,Ceftazidime,2004,434,1643
+Pseudomonas aeruginosa,Ceftazidime,2005,482,1770
+Pseudomonas aeruginosa,Ceftazidime,2006,714,2442
+Pseudomonas aeruginosa,Ceftazidime,2007,1026,3067
+Pseudomonas aeruginosa,Ceftazidime,2008,1293,2558
+Pseudomonas aeruginosa,Ceftazidime,2009,1491,2813
+Pseudomonas aeruginosa,Ceftazidime,2010,1134,2130
+Pseudomonas aeruginosa,Ceftazidime,2011,510,2038
+Pseudomonas aeruginosa,Ceftazidime,2012,723,3103
+Pseudomonas aeruginosa,Ceftazidime,2013,1084,4116
+Pseudomonas aeruginosa,Ceftazidime,2014,1539,5425
+Pseudomonas aeruginosa,Ceftazidime,2015,1467,5038
+Pseudomonas aeruginosa,Ceftazidime,2016,1564,5764
+Pseudomonas aeruginosa,Ceftazidime,2017,1377,5027
+Pseudomonas aeruginosa,Ceftazidime,2018,1667,5343
+Pseudomonas aeruginosa,Ceftazidime,2019,2456,7773
+Pseudomonas aeruginosa,Ceftazidime,2020,2425,8295
+Pseudomonas aeruginosa,Ceftazidime,2021,2646,8923
+Pseudomonas aeruginosa,Ceftazidime,2022,2169,8089
+Pseudomonas aeruginosa,Imipenem,2004,468,1591
+Pseudomonas aeruginosa,Imipenem,2005,504,1695
+Pseudomonas aeruginosa,Imipenem,2006,496,1451
+Pseudomonas aeruginosa,Imipenem,2007,23,77
+Pseudomonas aeruginosa,Imipenem,2012,556,1002
+Pseudomonas aeruginosa,Imipenem,2013,847,1361
+Pseudomonas aeruginosa,Imipenem,2014,1742,2674
+Pseudomonas aeruginosa,Imipenem,2015,1438,2517
+Pseudomonas aeruginosa,Imipenem,2016,1518,3097
+Pseudomonas aeruginosa,Imipenem,2017,1373,2822
+Pseudomonas aeruginosa,Imipenem,2018,2701,4309
+Pseudomonas aeruginosa,Imipenem,2019,3857,6372
+Pseudomonas aeruginosa,Imipenem,2020,4208,6512
+Pseudomonas aeruginosa,Imipenem,2021,3981,7588
+Pseudomonas aeruginosa,Imipenem,2022,3387,6869
+Pseudomonas aeruginosa,Levofloxacin,2004,955,1122
+Pseudomonas aeruginosa,Levofloxacin,2005,1025,1227
+Pseudomonas aeruginosa,Levofloxacin,2006,1410,1746
+Pseudomonas aeruginosa,Levofloxacin,2007,1813,2280
+Pseudomonas aeruginosa,Levofloxacin,2008,1877,1974
+Pseudomonas aeruginosa,Levofloxacin,2009,2057,2247
+Pseudomonas aeruginosa,Levofloxacin,2010,1551,1713
+Pseudomonas aeruginosa,Levofloxacin,2011,1043,1505
+Pseudomonas aeruginosa,Levofloxacin,2012,1447,2379
+Pseudomonas aeruginosa,Levofloxacin,2013,1989,3211
+Pseudomonas aeruginosa,Levofloxacin,2014,2651,4313
+Pseudomonas aeruginosa,Levofloxacin,2015,2553,3952
+Pseudomonas aeruginosa,Levofloxacin,2016,2796,4532
+Pseudomonas aeruginosa,Levofloxacin,2017,2241,4163
+Pseudomonas aeruginosa,Levofloxacin,2018,1995,3672
+Pseudomonas aeruginosa,Levofloxacin,2019,2919,5653
+Pseudomonas aeruginosa,Levofloxacin,2020,2947,6156
+Pseudomonas aeruginosa,Levofloxacin,2021,3032,6737
+Pseudomonas aeruginosa,Levofloxacin,2022,2465,6288
+Pseudomonas aeruginosa,Meropenem,2004,12,6
+Pseudomonas aeruginosa,Meropenem,2005,22,31
+Pseudomonas aeruginosa,Meropenem,2006,372,837
+Pseudomonas aeruginosa,Meropenem,2007,1082,2911
+Pseudomonas aeruginosa,Meropenem,2008,1244,2607
+Pseudomonas aeruginosa,Meropenem,2009,1440,2864
+Pseudomonas aeruginosa,Meropenem,2010,1032,2232
+Pseudomonas aeruginosa,Meropenem,2011,734,1814
+Pseudomonas aeruginosa,Meropenem,2012,1067,2759
+Pseudomonas aeruginosa,Meropenem,2013,1431,3769
+Pseudomonas aeruginosa,Meropenem,2014,1981,4983
+Pseudomonas aeruginosa,Meropenem,2015,1874,4631
+Pseudomonas aeruginosa,Meropenem,2016,2042,5286
+Pseudomonas aeruginosa,Meropenem,2017,1701,4703
+Pseudomonas aeruginosa,Meropenem,2018,1848,5162
+Pseudomonas aeruginosa,Meropenem,2019,2716,7513
+Pseudomonas aeruginosa,Meropenem,2020,2650,8070
+Pseudomonas aeruginosa,Meropenem,2021,3021,8548
+Pseudomonas aeruginosa,Meropenem,2022,2287,7971
+Pseudomonas aeruginosa,Minocycline,2004,1985,92
+Pseudomonas aeruginosa,Minocycline,2005,2126,126
+Pseudomonas aeruginosa,Minocycline,2006,2964,192
+Pseudomonas aeruginosa,Minocycline,2007,3810,283
+Pseudomonas aeruginosa,Minocycline,2008,3633,218
+Pseudomonas aeruginosa,Minocycline,2009,4067,237
+Pseudomonas aeruginosa,Minocycline,2010,3081,183
+Pseudomonas aeruginosa,Minocycline,2011,2339,209
+Pseudomonas aeruginosa,Minocycline,2012,2053,215
+Pseudomonas aeruginosa,Minocycline,2013,2715,277
+Pseudomonas aeruginosa,Minocycline,2014,2347,201
+Pseudomonas aeruginosa,Minocycline,2015,2363,187
+Pseudomonas aeruginosa,Minocycline,2016,2451,262
+Pseudomonas aeruginosa,Minocycline,2017,1958,251
+Pseudomonas aeruginosa,Piperacillin tazobactam,,,
+Pseudomonas aeruginosa,Piperacillin tazobactam,2004,447,1630
+Pseudomonas aeruginosa,Piperacillin tazobactam,2005,473,1779
+Pseudomonas aeruginosa,Piperacillin tazobactam,2006,693,2463
+Pseudomonas aeruginosa,Piperacillin tazobactam,2007,1002,3091
+Pseudomonas aeruginosa,Piperacillin tazobactam,2008,1337,2514
+Pseudomonas aeruginosa,Piperacillin tazobactam,2009,1504,2800
+Pseudomonas aeruginosa,Piperacillin tazobactam,2010,1151,2113
+Pseudomonas aeruginosa,Piperacillin tazobactam,2011,580,1968
+Pseudomonas aeruginosa,Piperacillin tazobactam,2012,850,2976
+Pseudomonas aeruginosa,Piperacillin tazobactam,2013,1289,3911
+Pseudomonas aeruginosa,Piperacillin tazobactam,2014,1992,4972
+Pseudomonas aeruginosa,Piperacillin tazobactam,2015,1781,4724
+Pseudomonas aeruginosa,Piperacillin tazobactam,2016,1947,5381
+Pseudomonas aeruginosa,Piperacillin tazobactam,2017,1477,4927
+Pseudomonas aeruginosa,Piperacillin tazobactam,2018,1838,5172
+Pseudomonas aeruginosa,Piperacillin tazobactam,2019,3001,7228
+Pseudomonas aeruginosa,Piperacillin tazobactam,2020,2782,7938
+Pseudomonas aeruginosa,Piperacillin tazobactam,2021,3249,8320
+Pseudomonas aeruginosa,Piperacillin tazobactam,2022,2553,7705
+Pseudomonas aeruginosa,Aztreonam,2012,518,1040
+Pseudomonas aeruginosa,Aztreonam,2013,1046,1162
+Pseudomonas aeruginosa,Aztreonam,2014,1603,2813
+Pseudomonas aeruginosa,Aztreonam,2015,1507,2448
+Pseudomonas aeruginosa,Aztreonam,2016,1596,3019
+Pseudomonas aeruginosa,Aztreonam,2017,1439,2756
+Pseudomonas aeruginosa,Aztreonam,2018,1950,3717
+Pseudomonas aeruginosa,Aztreonam,2019,2827,5745
+Pseudomonas aeruginosa,Aztreonam,2020,2971,6132
+Pseudomonas aeruginosa,Aztreonam,2021,3090,6679
+Pseudomonas aeruginosa,Aztreonam,2022,2624,6132
+Pseudomonas aeruginosa,Aztreonam avibactam,2012,356,1202
+Pseudomonas aeruginosa,Aztreonam avibactam,2013,638,1570
+Pseudomonas aeruginosa,Aztreonam avibactam,2014,1129,3287
+Pseudomonas aeruginosa,Aztreonam avibactam,2015,1069,2763
+Pseudomonas aeruginosa,Aztreonam avibactam,2016,1001,3390
+Pseudomonas aeruginosa,Aztreonam avibactam,2017,888,3154
+Pseudomonas aeruginosa,Aztreonam avibactam,2018,1092,4074
+Pseudomonas aeruginosa,Aztreonam avibactam,2019,1907,6665
+Pseudomonas aeruginosa,Aztreonam avibactam,2020,2046,7057
+Pseudomonas aeruginosa,Aztreonam avibactam,2021,2098,7671
+Pseudomonas aeruginosa,Aztreonam avibactam,2022,1812,6944
+Pseudomonas aeruginosa,Ceftaroline,2012,808,750
+Pseudomonas aeruginosa,Ceftaroline,2013,1394,814
+Pseudomonas aeruginosa,Ceftaroline,2014,2970,1446
+Pseudomonas aeruginosa,Ceftaroline,2015,2669,1286
+Pseudomonas aeruginosa,Ceftaroline,2016,2871,1744
+Pseudomonas aeruginosa,Ceftaroline,2017,2930,1265
+Pseudomonas aeruginosa,Ceftaroline,2018,0,5667
+Pseudomonas aeruginosa,Ceftaroline,2019,0,8572
+Pseudomonas aeruginosa,Ceftaroline,2020,0,9103
+Pseudomonas aeruginosa,Ceftaroline,2021,0,9769
+Pseudomonas aeruginosa,Ceftaroline,2022,0,8756
+Pseudomonas aeruginosa,Ceftazidime avibactam,2012,44,1514
+Pseudomonas aeruginosa,Ceftazidime avibactam,2013,184,2024
+Pseudomonas aeruginosa,Ceftazidime avibactam,2014,391,4025
+Pseudomonas aeruginosa,Ceftazidime avibactam,2015,338,3617
+Pseudomonas aeruginosa,Ceftazidime avibactam,2016,374,4241
+Pseudomonas aeruginosa,Ceftazidime avibactam,2017,338,3857
+Pseudomonas aeruginosa,Ceftazidime avibactam,2018,545,5122
+Pseudomonas aeruginosa,Ceftazidime avibactam,2019,728,7844
+Pseudomonas aeruginosa,Ceftazidime avibactam,2020,885,8218
+Pseudomonas aeruginosa,Ceftazidime avibactam,2021,925,8844
+Pseudomonas aeruginosa,Ceftazidime avibactam,2022,775,7981
+Pseudomonas aeruginosa,Ciprofloxacin,2018,1902,5108
+Pseudomonas aeruginosa,Ciprofloxacin,2019,2752,7477
+Pseudomonas aeruginosa,Ciprofloxacin,2020,2475,8245
+Pseudomonas aeruginosa,Ciprofloxacin,2021,2591,8978
+Pseudomonas aeruginosa,Ciprofloxacin,2022,2093,8163
+Pseudomonas aeruginosa,Doripenem,2012,355,1203
+Pseudomonas aeruginosa,Doripenem,2013,537,1670
+Pseudomonas aeruginosa,Doripenem,2014,1163,3253
+Pseudomonas aeruginosa,Doripenem,2015,1031,2924
+Pseudomonas aeruginosa,Doripenem,2016,1174,3441
+Pseudomonas aeruginosa,Doripenem,2017,990,3205
+Pseudomonas aeruginosa,Gentamicin,2018,1286,5724
+Pseudomonas aeruginosa,Gentamicin,2019,1994,8235
+Pseudomonas aeruginosa,Gentamicin,2020,1666,9054
+Pseudomonas aeruginosa,Gentamicin,2021,1813,9756
+Pseudomonas aeruginosa,Gentamicin,2022,1503,8755
+Pseudomonas aeruginosa,Trimethoprim sulfa,2018,1561,4106
+Pseudomonas aeruginosa,Trimethoprim sulfa,2019,2270,6302
+Pseudomonas aeruginosa,Trimethoprim sulfa,2020,2083,7020
+Pseudomonas aeruginosa,Trimethoprim sulfa,2021,1993,7776
+Pseudomonas aeruginosa,Trimethoprim sulfa,2022,1486,7270
