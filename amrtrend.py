@@ -79,16 +79,7 @@ with st.spinner("Fetching Datasets..."):
     folder_name = "resource"
     download_path = "./downloads"  # Path to store the zip file
     extract_path = "./resource/resource"  # Path to extract the folder
-
-    # Ensure the download path exists
-    if not os.path.exists(download_path):
-        os.makedirs(download_path)
-
-    # Download and extract folder
-    flag = 0
-    if flag==0:
-        gr.download_and_extract_with_gdown(gdrive_link, folder_name, download_path, extract_path)
-        flag=1
+    gr.download_and_extract_with_gdown(gdrive_link, folder_name, download_path, extract_path)
 with b:
     st.write(os.listdir("./resource/resource/Final Data/Ecoli data"))
 
