@@ -90,7 +90,7 @@ with st.spinner("Fetching Datasets..."):
         gr.download_and_extract_with_gdown(gdrive_link, folder_name, download_path, extract_path)
         flag=1
 with b:
-    st.write(os.listdir("./resource/resource/Final Data"))
+    st.write(os.listdir("./resource/resource/Final Data/Ecoli data"))
 
 with a:
     with st.container(border=True):
