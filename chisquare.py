@@ -86,13 +86,13 @@ def get_cons(organism):
     import pandas as pd
     import numpy as np
     mapping = {
-        "Escherichia coli" : "resource/resource/Final data/Ecoli data/Final_Ecoli.csv",
-        "Enterococcus faecium" : "resource/resource/Final data/EF data/Final_EF.csv",
-        "Klebsiella pneumoniae" : "resource/resource/Final data/KP data/Final_KP.csv",
-        "Acinetobacter baumannii" : "resource/resource/Final data/AB data/Final_AB.csv",
-        "Pseudomonas aeruginosa" : "resource/resource/Final data/PA data/Final_PA.csv",
-        "Staphylococcus aureus" : "resource/resource/Final data/SA data/Final_SA.csv",
-        "Enterobacter cloacae" : "resource/resource/Final data/EB data/Final_EB.csv"
+        "Escherichia coli" : "./resource/resource/Final data/Ecoli data/Final_Ecoli.csv",
+        "Enterococcus faecium" : "./resource/resource/Final data/EF data/Final_EF.csv",
+        "Klebsiella pneumoniae" : "./resource/resource/Final data/KP data/Final_KP.csv",
+        "Acinetobacter baumannii" : "./resource/resource/Final data/AB data/Final_AB.csv",
+        "Pseudomonas aeruginosa" : "./resource/resource/Final data/PA data/Final_PA.csv",
+        "Staphylococcus aureus" : "./resource/resource/Final data/SA data/Final_SA.csv",
+        "Enterobacter cloacae" : "./resource/resource/Final data/EB data/Final_EB.csv"
     }
     ecoli = pd.read_csv(mapping[organism],low_memory=False)
     ec=ecoli.copy()
@@ -117,13 +117,13 @@ def plot_country_group(organism,country):
     import pandas as pd
     import numpy as np
     mapping = {
-        "Escherichia coli" : "resource/resource/Final data/Ecoli data/Final_Ecoli.csv",
-        "Enterococcus faecium" : "resource/resource/Final data/EF data/Final_EF.csv",
-        "Klebsiella pneumoniae" : "resource/resource/Final data/KP data/Final_KP.csv",
-        "Acinetobacter baumannii" : "resource/resource/Final data/AB data/Final_AB.csv",
-        "Pseudomonas aeruginosa" : "resource/resource/Final data/PA data/Final_PA.csv",
-        "Staphylococcus aureus" : "resource/resource/Final data/SA data/Final_SA.csv",
-        "Enterobacter cloacae" : "resource/resource/Final data/EB data/Final_EB.csv"
+        "Escherichia coli" : "./resource/resource/Final data/Ecoli data/Final_Ecoli.csv",
+        "Enterococcus faecium" : "./resource/resource/Final data/EF data/Final_EF.csv",
+        "Klebsiella pneumoniae" : "./resource/resource/Final data/KP data/Final_KP.csv",
+        "Acinetobacter baumannii" : "./resource/resource/Final data/AB data/Final_AB.csv",
+        "Pseudomonas aeruginosa" : "./resource/resource/Final data/PA data/Final_PA.csv",
+        "Staphylococcus aureus" : "./resource/resource/Final data/SA data/Final_SA.csv",
+        "Enterobacter cloacae" : "./resource/resource/Final data/EB data/Final_EB.csv"
     }
     ecoli = pd.read_csv(mapping[organism],low_memory=False)
     ec=ecoli.copy()
@@ -216,13 +216,13 @@ def plot_age_group(organism,age):
     import pandas as pd
     import numpy as np
     mapping = {
-        "Escherichia coli" : "resource/resource/Final data/Ecoli data/Final_Ecoli.csv",
-        "Enterococcus faecium" : "resource/resource/Final data/EF data/Final_EF.csv",
-        "Klebsiella pneumoniae" : "resource/resource/Final data/KP data/Final_KP.csv",
-        "Acinetobacter baumannii" : "resource/resource/Final data/AB data/Final_AB.csv",
-        "Pseudomonas aeruginosa" : "resource/resource/Final data/PA data/Final_PA.csv",
-        "Staphylococcus aureus" : "resource/resource/Final data/SA data/Final_SA.csv",
-        "Enterobacter cloacae" : "resource/resource/Final data/EB data/Final_EB.csv"
+        "Escherichia coli" : "./resource/resource/Final data/Ecoli data/Final_Ecoli.csv",
+        "Enterococcus faecium" : "./resource/resource/Final data/EF data/Final_EF.csv",
+        "Klebsiella pneumoniae" : "./resource/resource/Final data/KP data/Final_KP.csv",
+        "Acinetobacter baumannii" : "./resource/resource/Final data/AB data/Final_AB.csv",
+        "Pseudomonas aeruginosa" : "./resource/resource/Final data/PA data/Final_PA.csv",
+        "Staphylococcus aureus" : "./resource/resource/Final data/SA data/Final_SA.csv",
+        "Enterobacter cloacae" : "./resource/resource/Final data/EB data/Final_EB.csv"
     }
     ecoli = pd.read_csv(mapping[organism],low_memory=False)
     ec=ecoli.copy()
@@ -302,13 +302,13 @@ def conplot_geo(organism):
     import pandas as pd
     import plotly.express as px
     mapping = {
-        "Escherichia coli" : "resource/resource/Final data/Ecoli data/Final_Ecoli.csv",
-        "Enterococcus faecium" : "resource/resource/Final data/EF data/Final_EF.csv",
-        "Klebsiella pneumoniae" : "resource/resource/Final data/KP data/Final_KP.csv",
-        "Acinetobacter baumannii" : "resource/resource/Final data/AB data/Final_AB.csv",
-        "Pseudomonas aeruginosa" : "resource/resource/Final data/PA data/Final_PA.csv",
-        "Staphylococcus aureus" : "resource/resource/Final data/SA data/Final_SA.csv",
-        "Enterobacter cloacae" : "resource/resource/Final data/EC data/Final_EC.csv"
+        "Escherichia coli" : "./resource/resource/Final data/Ecoli data/Final_Ecoli.csv",
+        "Enterococcus faecium" : "./resource/resource/Final data/EF data/Final_EF.csv",
+        "Klebsiella pneumoniae" : "./resource/resource/Final data/KP data/Final_KP.csv",
+        "Acinetobacter baumannii" : "./resource/resource/Final data/AB data/Final_AB.csv",
+        "Pseudomonas aeruginosa" : "./resource/resource/Final data/PA data/Final_PA.csv",
+        "Staphylococcus aureus" : "./resource/resource/Final data/SA data/Final_SA.csv",
+        "Enterobacter cloacae" : "./resource/resource/Final data/EC data/Final_EC.csv"
     }
     ecoli = pd.read_csv(mapping[organism],low_memory=False)
     ec=ecoli.copy()
