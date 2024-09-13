@@ -25,7 +25,7 @@ def plot_antibiotic_resistance(organism):
         "Acinetobacter baumannii" : "./resource/resource/Final data/AB data/Final_AB.csv",
         "Pseudomonas aeruginosa" : "./resource/resource/Final data/PA data/Final_PA.csv",
         "Staphylococcus aureus" : "./resource/resource/Final data/SA data/Final_SA.csv",
-        "Enterobacter cloacae" : "resource/resource/Final data/EB data/Final_EB.csv"
+        "Enterobacter cloacae" : "./resource/resource/Final data/EB data/Final_EB.csv"
     }
     #df = pd.read_csv("cs_res2.csv",low_memory=False)
     df = pd.read_csv("cs_res.csv", encoding='ISO-8859-1', low_memory=False)
