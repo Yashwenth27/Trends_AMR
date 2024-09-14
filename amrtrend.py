@@ -127,7 +127,7 @@ with a:
                 with a:
                     fig,dfplotc=c.plot_antibiotic_resistance(org)
                     with b:
-                        st.pyplot(fig)
+                        st.plotly_chart(fig)
                         st.write(dfplotc)
         
         with st.expander("Country Wise Resistant Profile"):
