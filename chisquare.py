@@ -234,7 +234,7 @@ def plot_country_group(organism, country):
     )
 
     # Show the figure
-    return fig
+    return fig,country_data
 
 
 def plot_age_group(organism,age):
