@@ -23,7 +23,7 @@ navbar_html = '''
         top: 0;
         left: 0;
         width: 100%;
-        z-index: 1000;
+        z-index: 1;
         display: flex;
         justify-content: space-between;
         align-items: center;
