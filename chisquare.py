@@ -46,6 +46,7 @@ def plot_antibiotic_resistance(organism):
 
     # Calculate the percentage of resistant cases
     grouped_df['%R'] = (grouped_df['R'] / (grouped_df['R'] + grouped_df['S'])) * 100
+    grouped_df['%S'] = (grouped_df['S'] / (grouped_df['R'] + grouped_df['S'])) * 100
     print("Columns in grouped_df:", grouped_df.columns)
     print("Head of grouped_df:", grouped_df.head())
     print(organism)
@@ -67,15 +68,15 @@ def plot_antibiotic_resistance(organism):
         # Add trace for each antibiotic
         fig.add_trace(go.Scatter(
             x=antibiotic_data['Year'],
-            y=antibiotic_data['%R'],
+            y=antibiotic_data['%S'],
             mode='markers+lines',
             name=antibiotic,
-            text=[f"Antibiotics: {year}<br>R: {R}<br>S: {S}<br>%R: {percent_R}" 
+            text=[f"Antibiotics: {year}<br>R: {R}<br>S: {S}<br>%S: {percent_R}" 
                   for year, R, S, percent_R in zip(
                       antibiotic_data['Antibiotics'],
                       antibiotic_data['R'],
                       antibiotic_data['S'],
-                      antibiotic_data['%R']
+                      antibiotic_data['%S']
                   )],
             hoverinfo='text',
             marker=dict(size=8)
@@ -85,7 +86,7 @@ def plot_antibiotic_resistance(organism):
     fig.update_layout(
         title=f'Antibiotic Resistant Profile for {organism}',
         xaxis_title='Year',
-        yaxis_title='% of R',
+        yaxis_title='% of S',
         xaxis=dict(tickmode='linear'),
         legend_title='Antibiotics'
     )
