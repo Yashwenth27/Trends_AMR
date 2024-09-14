@@ -203,7 +203,7 @@ def plot_country_group(organism, country):
             continue
 
         fig.add_trace(go.Scatter(
-            x=antibiotic_data['Age Group'], 
+            x=["0 to 2 Years","3 to 12 Years","13 to 18 Years","19 to 64 Years","65 to 84 Years","85 and Over"], 
             y=antibiotic_data['Resistance_Percentage'], 
             mode='lines+markers',
             name=antibiotic,
@@ -324,8 +324,7 @@ def plot_age_group(organism,age):
                 bgcolor='rgba(255, 255, 255, 0)',  # Transparent background
                 bordercolor='black',
                 borderwidth=1
-            ),
-            hovermode='x unified'  # Shows hover information for all traces at once
+            )
         )
 
         # Show the figure
