@@ -185,6 +185,7 @@ def plot_country_group(organism, country):
 
     # Clean antibiotic names (remove trailing "_I")
     country_data['Antibiotic'] = country_data['Antibiotic'].str.replace('_I', '')
+    country_data['Age Group'] = country_data['Age Group'].str.replace('3 to 12 Years', '03 to 12 Years')
 
     # Create the figure
     fig = go.Figure()
