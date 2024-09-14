@@ -146,7 +146,7 @@ content_html = '''
             <li>Network Graphs: Visualize associations between antibiotics with "Resistance to Resistance" and "Resistance to Susceptible" patterns.</li>
             <li>Rule Summary Table Export: Export lists of rules with support, confidence, and lift metrics for further analysis.</li>
             <li>Antibiotic Class Filtering: View resistance patterns by specific antibiotic classes, helping to interpret how changes in antibiotic usage or resistance rates may impact resistance patterns.</li>
-            <li>Comparative Analysis: Compare resistance trends for various antimicrobial drugs across ESKAPEE pathogens, including <i>E. coli</i>, to identify emerging threats and evaluate intervention strategies.</li>
+            <li>Comparative Analysis: Compare resistance trends for various antimicrobial drugs across ESKAPEE pathogens, including <i>E.coli</i>, to identify emerging threats and evaluate intervention strategies.</li>
             <li>Data Export Options: Export detailed reports and data sets for further analysis.</li>
         </ul>
         <hr>
