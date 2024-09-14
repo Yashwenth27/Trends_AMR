@@ -134,11 +134,12 @@ def get_cons(organism):
     import plotly.graph_objects as go
     data = dff
     return data['Country'].unique()
-def plot_country_group(organism,country):
+def plot_country_group(organism, country):
     import pandas as pd
     import numpy as np
-    if type(mapping[organism])==type([1,2]):
-        import pandas as pd
+    import plotly.graph_objects as go
+    
+    if type(mapping[organism]) == type([1, 2]):
         def combine_csv(file1, file2):
             # Load the two CSV files
             df1 = pd.read_csv(file1)
@@ -153,28 +154,27 @@ def plot_country_group(organism,country):
         original_df = combine_csv(mapping[organism][0], mapping[organism][1])
         ecoli = original_df
     else:
-        ecoli = pd.read_csv(mapping[organism],low_memory=False)
-    ec=ecoli.copy()
+        ecoli = pd.read_csv(mapping[organism], low_memory=False)
+    
+    ec = ecoli.copy()
     ec['Age Group'].value_counts()
-    clean_ec=ec[ec['Age Group'] != 'Unknown']
-    clean_ec_cols=list(clean_ec.columns[clean_ec.columns.str.contains("_I")])
-    ec_plot1 = clean_ec.melt(id_vars=['Country','Age Group'], 
+    clean_ec = ec[ec['Age Group'] != 'Unknown']
+    clean_ec_cols = list(clean_ec.columns[clean_ec.columns.str.contains("_I")])
+    ec_plot1 = clean_ec.melt(id_vars=['Country', 'Age Group'], 
                     value_vars=clean_ec_cols,
                     var_name='Antibiotic', value_name='Resistance')
-    ec_pv_plot1 = ec_plot1.pivot_table(index=['Country', 'Age Group','Antibiotic'], 
+    ec_pv_plot1 = ec_plot1.pivot_table(index=['Country', 'Age Group', 'Antibiotic'], 
                                columns='Resistance', 
                                aggfunc='size', 
                                fill_value=0).reset_index()
-    ec_pv_plot1['R_S_sum']=ec_pv_plot1['R']+ec_pv_plot1['S']
-    ec_pv_plot1_final=ec_pv_plot1[ec_pv_plot1['R_S_sum']>10]
+    ec_pv_plot1['R_S_sum'] = ec_pv_plot1['R'] + ec_pv_plot1['S']
+    ec_pv_plot1_final = ec_pv_plot1[ec_pv_plot1['R_S_sum'] > 10]
     dff = ec_pv_plot1_final
-    import pandas as pd
-    import plotly.graph_objects as go
 
     # Load the dataset
     data = dff
 
-    # Filter data for a specific country, e.g., 'Ukraine'
+    # Filter data for a specific country
     country_data = data[data['Country'] == country]
 
     # Remove the antibiotic "Colistin"
@@ -208,17 +208,14 @@ def plot_country_group(organism,country):
             mode='lines+markers',
             name=antibiotic,
             line=dict(color=colors[i % len(colors)]),  # Use different colors for each line
-            hovertemplate=(
-                '<br>------------------<br>' +
-                'Age Group: %{x}<br>' +
-                'Resistance: %{y:.2f} %<br>' +  # Properly formatted percentage
-                # Separation line added
-                'R count: %{customdata[0]:,.0f}<br>' +  # Ensure numbers are formatted
-                'S count: %{customdata[1]:,.0f}<br>' +
-                'Antibiotic: %{text}<extra></extra>'
-            ),
-            text=[antibiotic] * len(antibiotic_data),  # Set the text for each hover entry
-            customdata=antibiotic_data[['R', 'S']].values  # Include R and S in hover data
+            text=[f"Age Group: {age_group}<br>R: {r}<br>S: {s}<br>%R: {percent_r:.2f}" 
+                  for age_group, r, s, percent_r in zip(
+                      antibiotic_data['Age Group'],
+                      antibiotic_data['R'],
+                      antibiotic_data['S'],
+                      antibiotic_data['Resistance_Percentage']
+                  )],
+            hoverinfo='text'
         ))
 
     # Update layout to ensure the legend is placed on the right and hovermode is unified
@@ -239,6 +236,7 @@ def plot_country_group(organism,country):
 
     # Show the figure
     return fig
+
 
 def plot_age_group(organism,age):
     import pandas as pd
