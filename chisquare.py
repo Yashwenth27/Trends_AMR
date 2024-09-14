@@ -49,7 +49,7 @@ def plot_antibiotic_resistance(organism):
     print("Columns in grouped_df:", grouped_df.columns)
     print("Head of grouped_df:", grouped_df.head())
 
-    organism_data = grouped_df[grouped_df['Organism'] == organism]
+    organism_data = grouped_df[grouped_df['Organism'] == "Acinetobacter baumannii"]
 
     # Get unique antibiotics for this organism
     antibiotics = organism_data['Antibiotics'].unique()
@@ -79,7 +79,7 @@ def plot_antibiotic_resistance(organism):
 
     # Return the plot object
     #return fig,organism_data
-    return fig,df
+    return fig,
 
 def get_cons(organism):
     import pandas as pd
