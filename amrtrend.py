@@ -125,9 +125,10 @@ with a:
             if st.button("Display Plot",key=22):
                 import chisquare as c
                 with a:
-                    fig=c.plot_antibiotic_resistance(org)
+                    fig,dfplotc=c.plot_antibiotic_resistance(org)
                     with b:
                         st.pyplot(fig)
+                        st.write(dfplotc)
         
         with st.expander("Country Wise Resistant Profile"):
             org = st.selectbox("Choose Organism",["Not Chosen","Acinetobacter baumannii", "Enterobacter spp",
