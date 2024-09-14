@@ -48,7 +48,7 @@ def plot_antibiotic_resistance(organism):
     # Debugging: Print columns and head of grouped_df to check if %R is present
     print("Columns in grouped_df:", grouped_df.columns)
     print("Head of grouped_df:", grouped_df.head())
-
+    print(organism)
     organism_data = grouped_df[grouped_df['Organism'] == "Acinetobacter baumannii"]
 
     # Get unique antibiotics for this organism
