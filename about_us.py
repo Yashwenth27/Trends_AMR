@@ -192,14 +192,14 @@ html_code = f'''
         <div class="card">
             <img src="data:image/jpg;base64,{sasikala_img_base641}" alt="Ms. Srimathy R">
             <div class="info">
-                <h3>Ms. Srimathy R</h3>
+                <h3>Srimathy R</h3>
                 <p>Research Scholar, School of Chemical and Biotechnology, SASTRA Deemed University, Thanjavur-613 401, Tamil Nadu</p>
             </div>
         </div>
         <div class="card">
             <img src="data:image/jpg;base64,{sasikala_img_base6412}" alt="Ms. Akilandeswari R">
             <div class="info">
-                <h3>Ms. Akilandeswari R</h3>
+                <h3>Akilandeswari R</h3>
                 <p>Research Scholar, School of Chemical and Biotechnology, SASTRA Deemed University, Thanjavur-613 401, Tamil Nadu</p>
             </div>
         </div>
@@ -213,7 +213,7 @@ html_code = f'''
         <div class="card">
             <img src="data:image/jpg;base64,{sasikala_img_base641234}" alt="Surya Murugan M S">
             <div class="info">
-                <h3>Surya Murugan M S</h3>
+                <h3>Surya Murugan MS</h3>
                 <p>III year B.Tech Electronics and Communication Engineering, School of Electrical and Electronics, SASTRA Deemed to be University, Tamil Nadu - 613401, India</p>
             </div>
         </div>
