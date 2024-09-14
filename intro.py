@@ -124,7 +124,7 @@ content_html = '''
     <div class="content">
         <h1>Welcome to the MERIT Dashboard!</h1>
         <hr>
-        <p>Our dashboard is designed to provide insights into multi-drug resistant patterns in ESKAPE pathogens:</p>
+        <p>Our dashboard is designed to provide insights into multi-drug resistant patterns in ESKAPEE pathogens:</p>
         <ul>
             <li><i>Enterococcus faecium</i></li>
             <li><i>Staphylococcus aureus (including MRSA)</i></li>
@@ -135,10 +135,10 @@ content_html = '''
             <li><i>Escherichia coli</i></li>
         </ul>
         <hr>
-        <p>Our dashboard offers a range of features to visualize and interpret antimicrobial surveillance data of ESKAPE pathogens effectively:</p>
+        <p>Our dashboard offers a range of features to visualize and interpret antimicrobial surveillance data of ESKAPEE pathogens effectively:</p>
         <ul>
             <li><b>Interactive Charts & Graphs:</b> Visualize resistance patterns over time, with customizable filters to focus on specific pathogens, antibiotics, geographic regions, age, and gender.</li>
-            <li><b>Shared multi-drug resistant pattern prediction:</b> We have used the Apriori algorithm to identify frequent itemsets of antibiotics associated with resistance, providing insights in predicting and managing future antibiotic resistance trends among ESKAPE pathogens.</li>
+            <li><b>Shared multi-drug resistant pattern prediction:</b> We have used the Apriori algorithm to identify frequent itemsets of antibiotics associated with resistance, providing insights in predicting and managing future antibiotic resistance trends among ESKAPEE pathogens.</li>
         </ul>
         <hr>
         <p>Additional features include:</p>
@@ -146,7 +146,7 @@ content_html = '''
             <li>Network Graphs: Visualize associations between antibiotics with "Resistance to Resistance" and "Resistance to Susceptible" patterns.</li>
             <li>Rule Summary Table Export: Export lists of rules with support, confidence, and lift metrics for further analysis.</li>
             <li>Antibiotic Class Filtering: View resistance patterns by specific antibiotic classes, helping to interpret how changes in antibiotic usage or resistance rates may impact resistance patterns.</li>
-            <li>Comparative Analysis: Compare resistance trends for various antimicrobial drugs across ESKAPE pathogens, including E. coli, to identify emerging threats and evaluate intervention strategies.</li>
+            <li>Comparative Analysis: Compare resistance trends for various antimicrobial drugs across ESKAPEE pathogens, including <i>E. coli</i>, to identify emerging threats and evaluate intervention strategies.</li>
             <li>Data Export Options: Export detailed reports and data sets for further analysis.</li>
         </ul>
         <hr>
