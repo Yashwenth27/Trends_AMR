@@ -212,7 +212,7 @@ def plot_country_group(organism, country):
             line=dict(color=colors[i % len(colors)]),  # Use different colors for each line
             text=[f"Age Group: {age_group}<br>R: {r}<br>S: {s}<br>%R: {percent_r:.2f}" 
                   for age_group, r, s, percent_r in zip(
-                      antibiotic_data['Antibiotics'],
+                      antibiotic_data['Antibiotic'],
                       antibiotic_data['R'],
                       antibiotic_data['S'],
                       antibiotic_data['Resistance_Percentage']
