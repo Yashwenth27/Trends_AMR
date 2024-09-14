@@ -79,7 +79,7 @@ def plot_antibiotic_resistance(organism):
 
     # Return the plot object
     #return fig,organism_data
-    return fig,
+    return fig,organism_data
 
 def get_cons(organism):
     import pandas as pd
