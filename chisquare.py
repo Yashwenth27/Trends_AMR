@@ -69,9 +69,9 @@ def plot_antibiotic_resistance(organism):
             y=antibiotic_data['%R'],
             mode='markers+lines',
             name=antibiotic,
-            text=[f"Year: {year}<br>R: {R}<br>S: {S}<br>%R: {percent_R}" 
+            text=[f"Antibiotics: {year}<br>R: {R}<br>S: {S}<br>%R: {percent_R}" 
                   for year, R, S, percent_R in zip(
-                      antibiotic_data['Year'],
+                      antibiotic_data['Antibiotics'],
                       antibiotic_data['R'],
                       antibiotic_data['S'],
                       antibiotic_data['%R']
