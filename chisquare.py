@@ -46,10 +46,11 @@ def plot_antibiotic_resistance(organism):
 
     # Calculate the percentage of resistant cases
     grouped_df['%R'] = (grouped_df['R'] / (grouped_df['R'] + grouped_df['S'])) * 100
-
-    # Filter data for the selected organism
+    print("Columns in grouped_df:", grouped_df.columns)
+    print("Head of grouped_df:", grouped_df.head())
+    print(organism)
     if "neto" in organism:
-        organism_data = grouped_df[grouped_df['Organism'] == "Acinetobacter baumannii"]
+        organism_data = grouped_df[grouped_df['Organism'] == "Acinetobacter baumannii"]
     else:
         organism_data = grouped_df[grouped_df['Organism'] == organism]
 
