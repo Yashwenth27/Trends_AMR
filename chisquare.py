@@ -50,9 +50,6 @@ def plot_antibiotic_resistance(organism):
     print("Columns in grouped_df:", grouped_df.columns)
     print("Head of grouped_df:", grouped_df.head())
 
-    # Filter data for the specific organism
-    if "Enterobacter" in organism:
-        organism = "Enterobacter spp"
     organism_data = grouped_df[grouped_df['Organism'] == organism]
 
     # Get unique antibiotics for this organism
@@ -82,7 +79,7 @@ def plot_antibiotic_resistance(organism):
     ax.set_xticklabels([int(x) for x in ax.get_xticks()])
 
     # Return the plot object
-    return fig
+    return fig,organism_data
 
 def get_cons(organism):
     import pandas as pd
