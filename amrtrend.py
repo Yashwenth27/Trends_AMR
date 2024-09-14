@@ -127,9 +127,10 @@ with a:
             if st.button("Display Plot",key=22):
                 import chisquare as c
                 with a:
-                    fig,dfplotc=c.plot_antibiotic_resistance(org)
+                    fig,dfplotc,fig1=c.plot_antibiotic_resistance(org)
                     with b:
                         st.plotly_chart(fig)
+                        st.plotly_chart(fig1)
                         st.write(dfplotc)
         
         with st.expander("Country Wise Resistant Profile"):
@@ -144,7 +145,5 @@ with a:
                     with b:
                         st.plotly_chart(fig)
     
-            
-            
 
             
