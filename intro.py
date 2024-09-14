@@ -55,7 +55,7 @@ navbar_html = '''
         <h2 id="hh">MERIT Dashboard</h2>
     </div>
     <div class="menu">
-        <a href="">Home</a>
+        <a href="https://merit-sastra.streamlit.app/">Home</a>
         <a href="https://merit-dashboard.streamlit.app/">Dataset</a>
         <a href="https://merit-mining.streamlit.app/">Association Mining</a>
         <a href="https://mining-query.streamlit.app/">Track MDR</a>
