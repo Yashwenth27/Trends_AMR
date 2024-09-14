@@ -49,7 +49,10 @@ def plot_antibiotic_resistance(organism):
     print("Columns in grouped_df:", grouped_df.columns)
     print("Head of grouped_df:", grouped_df.head())
     print(organism)
-    organism_data = grouped_df[grouped_df['Organism'] == "Acinetobacter baumannii"]
+    if "neto" in organism:
+        organism_data = grouped_df[grouped_df['Organism'] == "Acinetobacter baumannii"]
+    else:
+        organism_data = grouped_df[grouped_df['Organism'] == organism]
 
     # Get unique antibiotics for this organism
     antibiotics = organism_data['Antibiotics'].unique()
