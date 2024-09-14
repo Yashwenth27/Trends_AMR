@@ -27,11 +27,13 @@ mapping = {
         "Enterobacter spp" : "./Final_EB.csv"
     }
 
+import pandas as pd
+import plotly.graph_objects as go
+
 def plot_antibiotic_resistance(organism):
+    # Read data from the CSV file
+    df = pd.read_csv("cs_res.csv", encoding='ISO-8859-1', low_memory=False)
     
-    #df = pd.read_csv("cs_res2.csv",low_memory=False)
-    df = pd.read_csv("cs_res.csv", encoding='ISO-8859-1',low_memory=False)
-    print(df.head())
     # Convert 'R' and 'S' columns to numeric, coercing errors to NaN
     df['R'] = pd.to_numeric(df['R'], errors='coerce')
     df['S'] = pd.to_numeric(df['S'], errors='coerce')
@@ -45,44 +47,52 @@ def plot_antibiotic_resistance(organism):
     # Calculate the percentage of resistant cases
     grouped_df['%R'] = (grouped_df['R'] / (grouped_df['R'] + grouped_df['S'])) * 100
 
-    # Debugging: Print columns and head of grouped_df to check if %R is present
-    print("Columns in grouped_df:", grouped_df.columns)
-    print("Head of grouped_df:", grouped_df.head())
-    print(organism)
+    # Filter data for the selected organism
     if "neto" in organism:
-        organism_data = grouped_df[grouped_df['Organism'] == "Acinetobacter baumannii"]
+        organism_data = grouped_df[grouped_df['Organism'] == "Acinetobacter baumannii"]
     else:
         organism_data = grouped_df[grouped_df['Organism'] == organism]
 
     # Get unique antibiotics for this organism
     antibiotics = organism_data['Antibiotics'].unique()
 
-    # Create a new figure for this organism
-    fig, ax = plt.subplots(figsize=(10, 6))
+    # Create a Plotly figure
+    fig = go.Figure()
 
-    # Plot data for each antibiotic with markers
+    # Add a trace for each antibiotic
     for antibiotic in antibiotics:
         antibiotic_data = organism_data[organism_data['Antibiotics'] == antibiotic]
-        # Check if %R column is present
-        if '%R' in antibiotic_data.columns:
-            ax.plot(antibiotic_data['Year'], antibiotic_data['%R'], label=antibiotic, marker='o')
-        else:
-            print(f"%R column not found for {antibiotic}")
+        
+        # Add trace for each antibiotic
+        fig.add_trace(go.Scatter(
+            x=antibiotic_data['Year'],
+            y=antibiotic_data['%R'],
+            mode='markers+lines',
+            name=antibiotic,
+            text=[f"Year: {year}<br>R: {R}<br>S: {S}<br>%R: {percent_R}" 
+                  for year, R, S, percent_R in zip(
+                      antibiotic_data['Year'],
+                      antibiotic_data['R'],
+                      antibiotic_data['S'],
+                      antibiotic_data['%R']
+                  )],
+            hoverinfo='text',
+            marker=dict(size=8)
+        ))
 
-    # Customize the plot
-    ax.set_xlabel('Year')
-    ax.set_ylabel('% of R')
-    ax.set_title(f'Antibiotic Resistant Profile for {organism}')
-    ax.legend(title='Antibiotics')
-    ax.grid(True)
+    # Update layout of the figure
+    fig.update_layout(
+        title=f'Antibiotic Resistant Profile for {organism}',
+        xaxis_title='Year',
+        yaxis_title='% of R',
+        xaxis=dict(tickmode='linear'),
+        legend_title='Antibiotics'
+    )
 
-    # Format x-axis ticks as whole numbers
-    ax.set_xticks(ax.get_xticks())
-    ax.set_xticklabels([int(x) for x in ax.get_xticks()])
+    # Show the figure
+    fig.show()
 
-    # Return the plot object
-    #return fig,organism_data
-    return fig,organism_data
+    return fig, organism_data
 
 def get_cons(organism):
     import pandas as pd
