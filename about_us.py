@@ -189,13 +189,7 @@ html_code = f'''
                 <p>Research Scholar, School of Chemical and Biotechnology, SASTRA Deemed University, Thanjavur-613 401, Tamil Nadu</p>
             </div>
         </div>
-        <div class="card">
-            <img src="data:image/jpg;base64,{sasikala_img_base6412}" alt="Ms. Akilandeswari R">
-            <div class="info">
-                <h3>Ms. Akilandeswari R</h3>
-                <p>Research Scholar, School of Chemical and Biotechnology, SASTRA Deemed University, Thanjavur-613 401, Tamil Nadu</p>
-            </div>
-        </div>
+        
         <div class="card">
             <img src="data:image/jpg;base64,{sasikala_img_base641}" alt="Ms. Srimathy R">
             <div class="info">
