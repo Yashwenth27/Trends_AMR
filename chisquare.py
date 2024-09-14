@@ -59,6 +59,7 @@ def plot_antibiotic_resistance(organism):
     antibiotics = organism_data['Antibiotics'].unique()
 
     # Create a Plotly figure
+    import plotly.graph_objects as go
     fig = go.Figure()
 
     # Add a trace for each antibiotic
@@ -66,6 +67,7 @@ def plot_antibiotic_resistance(organism):
         antibiotic_data = organism_data[organism_data['Antibiotics'] == antibiotic]
         
         # Add trace for each antibiotic
+
         fig.add_trace(go.Scatter(
             x=antibiotic_data['Year'],
             y=antibiotic_data['%S'],
@@ -86,15 +88,39 @@ def plot_antibiotic_resistance(organism):
     fig.update_layout(
         title=f'Antibiotic Susceptibility Profile for {organism}',
         xaxis_title='Year',
-        yaxis_title='% of S',
+        yaxis_title='% of R',
         xaxis=dict(tickmode='linear'),
         legend_title='Antibiotics'
     )
+    import plotly.graph_objects as go
 
-    # Show the figure
-    fig.show()
+    # Create an empty figure
+    fig1 = go.Figure()
 
-    return fig, organism_data
+    # Add a trace for each antibiotic
+    for antibiotic in antibiotics:
+        antibiotic_data = organism_data[organism_data['Antibiotics'] == antibiotic]
+        
+        # Add box plot trace for each antibiotic
+        fig1.add_trace(go.Box(
+            x=antibiotic_data['Antibiotics'],
+            y=antibiotic_data['%R'],
+            name=antibiotic
+        ))
+
+    # Update layout of the figure
+    fig1.update_layout(
+        title=f'Antibiotic Resistance Profile for {organism}',
+        xaxis_title='Antibiotics',
+        yaxis_title='% of R',
+        xaxis=dict(tickmode='linear'),
+        legend_title='Antibiotics',  # Set a legend title
+        hovermode='closest'  # Ensure hover info is shown when closest to the data point
+    )
+
+
+
+    return fig, organism_data, fig1
 
 def get_cons(organism):
     import pandas as pd
