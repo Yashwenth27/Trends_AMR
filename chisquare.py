@@ -143,6 +143,18 @@ def get_cons(organism):
         ecoli = original_df
     else:
         ecoli = pd.read_csv(mapping[organism],low_memory=False)
+    if  organism=="Escherichia coli":
+        ecoli.Source.replace("Vomit","Others",inplace=True)
+        ecoli.Source.replace("Paracentesis Fluid","Bodily Fluids",inplace=True)
+        ecoli.Source.replace("Ascetic Fluid","Bodily Fluids",inplace=True)
+        ecoli["In / Out Patient"].replace(np.NaN,"None Given",inplace=True)
+        ecoli["Gender"].replace(np.NaN,"N",inplace=True)
+    if  organism=="Staphylococcus aureus":
+        ecoli["In / Out Patient"].replace(np.NaN,"None Given",inplace=True)
+        ecoli["Gender"].replace(np.NaN,"N",inplace=True)
+        
+
+        
     ec=ecoli.copy()
     ec['Age Group'].value_counts()
     clean_ec=ec[ec['Age Group'] != 'Unknown']
@@ -182,6 +194,15 @@ def plot_country_group(organism, country):
         ecoli = original_df
     else:
         ecoli = pd.read_csv(mapping[organism], low_memory=False)
+    if  organism=="Escherichia coli":
+        ecoli.Source.replace("Vomit","Others",inplace=True)
+        ecoli.Source.replace("Paracentesis Fluid","Bodily Fluids",inplace=True)
+        ecoli.Source.replace("Ascetic Fluid","Bodily Fluids",inplace=True)
+        ecoli["In / Out Patient"].replace(np.NaN,"None Given",inplace=True)
+        ecoli["Gender"].replace(np.NaN,"N",inplace=True)
+    if  organism=="Staphylococcus aureus":
+        ecoli["In / Out Patient"].replace(np.NaN,"None Given",inplace=True)
+        ecoli["Gender"].replace(np.NaN,"N",inplace=True)
     
     ec = ecoli.copy()
     ec['Age Group'] = ec['Age Group'].str.replace('3 to 12 Years', '03 to 12 Years')
@@ -287,6 +308,15 @@ def plot_age_group(organism,age):
         ecoli = original_df
     else:
         ecoli = pd.read_csv(mapping[organism],low_memory=False)
+    if  organism=="Escherichia coli":
+        ecoli.Source.replace("Vomit","Others",inplace=True)
+        ecoli.Source.replace("Paracentesis Fluid","Bodily Fluids",inplace=True)
+        ecoli.Source.replace("Ascetic Fluid","Bodily Fluids",inplace=True)
+        ecoli["In / Out Patient"].replace(np.NaN,"None Given",inplace=True)
+        ecoli["Gender"].replace(np.NaN,"N",inplace=True)
+    if  organism=="Staphylococcus aureus":
+        ecoli["In / Out Patient"].replace(np.NaN,"None Given",inplace=True)
+        ecoli["Gender"].replace(np.NaN,"N",inplace=True)
     ec=ecoli.copy()
     ec['Age Group'].value_counts()
     clean_ec=ec[ec['Age Group'] != 'Unknown']
@@ -380,6 +410,15 @@ def conplot_geo(organism):
         ecoli = original_df
     else:
         ecoli = pd.read_csv(mapping[organism],low_memory=False)
+    if  organism=="Escherichia coli":
+        ecoli.Source.replace("Vomit","Others",inplace=True)
+        ecoli.Source.replace("Paracentesis Fluid","Bodily Fluids",inplace=True)
+        ecoli.Source.replace("Ascetic Fluid","Bodily Fluids",inplace=True)
+        ecoli["In / Out Patient"].replace(np.NaN,"None Given",inplace=True)
+        ecoli["Gender"].replace(np.NaN,"N",inplace=True)
+    if  organism=="Staphylococcus aureus":
+        ecoli["In / Out Patient"].replace(np.NaN,"None Given",inplace=True)
+        ecoli["Gender"].replace(np.NaN,"N",inplace=True)
     ec=ecoli.copy()
     ec_country_above_500=ec[ec.Country.isin(ec.Country.value_counts()[ec.Country.value_counts()>500].index)]
     clean_ec_cols_plot3=list(ec_country_above_500.columns[ec_country_above_500.columns.str.contains("_I")])
