@@ -157,6 +157,7 @@ def plot_country_group(organism, country):
         ecoli = pd.read_csv(mapping[organism], low_memory=False)
     
     ec = ecoli.copy()
+    ec['Age Group'] = ec['Age Group'].str.replace('3 to 12 Years', '03 to 12 Years')
     ec['Age Group'].value_counts()
     clean_ec = ec[ec['Age Group'] != 'Unknown']
     clean_ec_cols = list(clean_ec.columns[clean_ec.columns.str.contains("_I")])
@@ -185,7 +186,7 @@ def plot_country_group(organism, country):
 
     # Clean antibiotic names (remove trailing "_I")
     country_data['Antibiotic'] = country_data['Antibiotic'].str.replace('_I', '')
-    country_data['Age Group'] = country_data['Age Group'].str.replace('3 to 12 Years', '03 to 12 Years')
+    
 
     # Create the figure
     fig = go.Figure()
