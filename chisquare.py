@@ -30,7 +30,7 @@ mapping = {
 def plot_antibiotic_resistance(organism):
     
     #df = pd.read_csv("cs_res2.csv",low_memory=False)
-    df = pd.read_csv("cs_res.csv", low_memory=False)
+    df = pd.read_csv("cs_res.csv", encoding='ISO-8859-1',low_memory=False)
 
     print(df.head())
     # Convert 'R' and 'S' columns to numeric, coercing errors to NaN
