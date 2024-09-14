@@ -114,7 +114,9 @@ with a:
                 pass
             if st.button("Display Plot",key=99):
                 with b:
-                    st.plotly_chart(c.plot_country_group(org,con))
+                    fig,dfff = c.plot_country_group(org,con)
+                    st.plotly_chart(fig)
+                    st.write(dfff)
 
 
         with st.expander("Antibiotic Resistant Profile for Organism"):
