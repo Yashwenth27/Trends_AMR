@@ -230,8 +230,7 @@ def plot_country_group(organism, country):
             bordercolor='black',
             borderwidth=1
         ),
-        margin=dict(l=40, r=40, t=40, b=40),
-        hovermode='x unified'  # Shows hover information for all traces at once
+        margin=dict(l=40, r=40, t=40, b=40)# Shows hover information for all traces at once
     )
 
     # Show the figure
