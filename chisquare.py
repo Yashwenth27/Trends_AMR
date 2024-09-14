@@ -203,7 +203,7 @@ def plot_country_group(organism, country):
             continue
 
         fig.add_trace(go.Scatter(
-            x=["0 to 2 Years","3 to 12 Years","13 to 18 Years","19 to 64 Years","65 to 84 Years","85 and Over"], 
+            x=antibiotic_data['Age Group'], 
             y=antibiotic_data['Resistance_Percentage'], 
             mode='lines+markers',
             name=antibiotic,
