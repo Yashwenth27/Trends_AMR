@@ -31,8 +31,6 @@ def plot_antibiotic_resistance(organism):
     
     #df = pd.read_csv("cs_res2.csv",low_memory=False)
     df = pd.read_csv("cs_res.csv", encoding='ISO-8859-1',low_memory=False)
-    with st.expander("df"):
-        st.write(df)
     print(df.head())
     # Convert 'R' and 'S' columns to numeric, coercing errors to NaN
     df['R'] = pd.to_numeric(df['R'], errors='coerce')
@@ -80,7 +78,8 @@ def plot_antibiotic_resistance(organism):
     ax.set_xticklabels([int(x) for x in ax.get_xticks()])
 
     # Return the plot object
-    return fig,organism_data
+    #return fig,organism_data
+    return fig,df
 
 def get_cons(organism):
     import pandas as pd
