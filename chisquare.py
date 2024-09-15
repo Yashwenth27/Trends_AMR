@@ -291,7 +291,7 @@ def plot_country_group(organism, country):
     return fig,country_data
 
 
-def plot_age_group(organism,age):
+def plot_age_group(organism,selected_country):
     import pandas as pd
     import numpy as np
     
