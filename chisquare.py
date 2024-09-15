@@ -326,9 +326,9 @@ def plot_age_group(organism,selected_country):
     ec=ecoli.copy()
     df = ec[ec['Age Group'] != 'Unknown']
 
-    clean_ec_cols=list(clean_ec.columns[clean_ec.columns.str.contains("_I")])
+    clean_ec_cols=list(df.columns[df.columns.str.contains("_I")])
 
-    ec_plot1 = clean_ec.melt(id_vars=['Country','Age Group'], 
+    ec_plot1 = df.melt(id_vars=['Country','Age Group'], 
                         value_vars=clean_ec_cols,
                         var_name='Antibiotic', value_name='Resistance')
     					
