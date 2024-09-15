@@ -113,19 +113,22 @@ with a:
             "Escherichia coli", "Enterococcus faecium", "Klebsiella pneumoniae",
             "Pseudomonas aeruginosa", "Staphylococcus aureus"
             ],key=1)
-            import chisquare as c
-            con = "India"
-            try:
-                con = st.selectbox("Choose Country",c.get_cons(org))
-            except:
-                pass
-            if st.button("Display Plot",key=12):
+            if org!="Not Chosen:
                 import chisquare as c
-                fig= c.plot_age_group(org,con)
-        
-                with b:
-                    st.subheader(f"% of Resistance Over the Years - Country: {con}")
-                    st.plotly_chart(fig)
+                con = "India"
+                try:
+                    con = st.selectbox("Choose Country",c.get_cons(org))
+                except:
+                    pass
+                if st.button("Display Plot",key=12):
+                    import chisquare as c
+                    fig= c.plot_age_group(org,con)
+            
+                    with b:
+                        st.subheader(f"% of Resistance Over the Years - Country: {con}")
+                        st.plotly_chart(fig)
+            else:
+                st.success("Choose Organism")  
         with st.expander("% of Resistance over Country"):
             org = st.selectbox("Choose Organism",["Not Chosen","Acinetobacter baumannii", "Enterobacter spp",
             "Escherichia coli", "Enterococcus faecium", "Klebsiella pneumoniae",
@@ -138,9 +141,12 @@ with a:
             except:
                 pass
             if st.button("Display Plot",key=99):
-                with b:
-                    fig,dfff = c.plot_country_group(org,con)
-                    st.plotly_chart(fig)
+                if org!="Not Chosen":
+                    with b:
+                        fig,dfff = c.plot_country_group(org,con)
+                        st.plotly_chart(fig)
+                else:
+                    st.success("Choose Organism")
 
 
         with st.expander("Antibiotic Resistant Profile for Organism"):
@@ -149,12 +155,15 @@ with a:
             "Pseudomonas aeruginosa", "Staphylococcus aureus"
             ],key=3)
             if st.button("Display Plot",key=22):
-                import chisquare as c
-                with a:
-                    fig,dfplotc,fig1=c.plot_antibiotic_resistance(org)
-                    with b:
-                        st.plotly_chart(fig)
-                        st.plotly_chart(fig1)
+                if org!="Not Chosen":
+                    import chisquare as c
+                    with a:
+                        fig,dfplotc,fig1=c.plot_antibiotic_resistance(org)
+                        with b:
+                            st.plotly_chart(fig)
+                            st.plotly_chart(fig1)
+                else:
+                    st.success("Choose Organism")
         
         with st.expander("Country Wise Resistant Profile"):
             org = st.selectbox("Choose Organism",["Not Chosen","Acinetobacter baumannii", "Enterobacter spp",
@@ -162,11 +171,14 @@ with a:
             "Pseudomonas aeruginosa", "Staphylococcus aureus"
             ],key=4)
             if st.button("Display Plot",key=23):
-                import chisquare as c
-                with a:
-                    fig=c.conplot_geo(org)
-                    with b:
-                        st.plotly_chart(fig)
+                if org!="Not Chosen":
+                    import chisquare as c
+                    with a:
+                        fig=c.conplot_geo(org)
+                        with b:
+                            st.plotly_chart(fig)
+                else:
+                    st.success("Choose Organism")
     
 
             
