@@ -391,7 +391,7 @@ def plot_age_group(organism,selected_country):
 
     # Update layout for title, labels, and other aesthetic details
     fig.update_layout(
-        title=f'Normalized R% by Antibiotic and Age Group in {selected_country}',
+        title=f'R% by Antibiotic and Age Group in {selected_country}',
         xaxis_title='Antibiotic',
         yaxis_title='Normalized R%',
         barmode='stack',  # Stacked bar chart mode
