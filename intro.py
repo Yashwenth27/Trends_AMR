@@ -74,10 +74,10 @@ navbar_html = '''
     <div class="menu">
         <a href="">Home</a>
         <a href="https://merit-dashboard.streamlit.app/" target="_blank">Dataset</a>
-        <a href="https://merit-mining.streamlit.app/" target="_self">Association Mining</a>
-        <a href="https://mining-query.streamlit.app/" target="_self">Track MDR</a>
-        <a href="https://merit-dataset.streamlit.app/" target="_self">Antimicrobial Trend</a>
-        <a href="https://merit-aboutus.streamlit.app/">About Us</a>
+        <a href="https://merit-mining.streamlit.app/" target="_blank">Association Mining</a>
+        <a href="https://mining-query.streamlit.app/" target="_blank">Track MDR</a>
+        <a href="https://merit-dataset.streamlit.app/" target="_blank">Antimicrobial Trend</a>
+        <a href="https://merit-aboutus.streamlit.app/" target="_blank">About Us</a>
     </div>
 </nav>
 
