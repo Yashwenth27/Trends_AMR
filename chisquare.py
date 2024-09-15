@@ -326,11 +326,26 @@ def plot_age_group(organism,selected_country):
     ec=ecoli.copy()
     df = ec[ec['Age Group'] != 'Unknown']
 
-    # Filter data for the selected country
+    clean_ec_cols=list(clean_ec.columns[clean_ec.columns.str.contains("_I")])
+
+    ec_plot1 = clean_ec.melt(id_vars=['Country','Age Group'], 
+                        value_vars=clean_ec_cols,
+                        var_name='Antibiotic', value_name='Resistance')
+    					
+    ec_pv_plot1 = ec_plot1.pivot_table(index=['Country', 'Antibiotic','Age Group'], 
+                                   columns='Resistance', 
+                                   aggfunc='size', 
+                                   fill_value=0).reset_index()
+    ec_pv_plot1['R_S_sum']=ec_pv_plot1['R']+ec_pv_plot1['S']
+
+    ec_pv_plot1_final=ec_pv_plot1[ec_pv_plot1['R_S_sum']>10]
+
+    ec_pv_plot1_final['%R']=(ec_pv_plot1_final['R']/ec_pv_plot1_final['R_S_sum'])*100
+
+    df = ec_pv_plot1_final.copy()
+        # Filter data for the selected country
     df_country = df[df['Country'] == selected_country]
 
-    # Calculate %R (resistance percentage)
-    df_country['%R'] = (df_country['R'] / df_country['R_S_sum']) * 100
 
     # Remove '_I' from antibiotic names
     df_country['Antibiotic'] = df_country['Antibiotic'].str.replace('_I', '')
