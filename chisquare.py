@@ -324,50 +324,59 @@ def plot_age_group(organism,age):
     if organism=="Enterobacter spp":
         ecoli["Species"] = "Enterobacter spp"
     ec=ecoli.copy()
-    df = df[df['Age Group'] != 'Unknown']
+    df = ec[ec['Age Group'] != 'Unknown']
 
-    # Filter data for the selected organism and age group
-    df_filtered = df[(df['Organism'] == organism) & (df['Age Group'] == age_group)]
+    # Filter data for the selected country
+    df_country = df[df['Country'] == selected_country]
 
     # Calculate %R (resistance percentage)
-    df_filtered['%R'] = (df_filtered['R'] / df_filtered['R_S_sum']) * 100
+    df_country['%R'] = (df_country['R'] / df_country['R_S_sum']) * 100
 
     # Remove '_I' from antibiotic names
-    df_filtered['Antibiotic'] = df_filtered['Antibiotic'].str.replace('_I', '')
+    df_country['Antibiotic'] = df_country['Antibiotic'].str.replace('_I', '')
 
-    # Pivot the data to show antibiotics with %R for the selected age group
-    pivot_df = df_filtered.pivot(index='Antibiotic', columns='Age Group', values='%R').fillna(0)
+    # Pivot to show antibiotics and age groups with %R
+    pivot_df = df_country.pivot(index='Antibiotic', columns='Age Group', values='%R').fillna(0)
 
     # Normalize the data
     pivot_df_normalized = (pivot_df.div(pivot_df.sum(axis=1), axis=0) * 100).fillna(0)
 
+    # Default color map for age groups
+    default_colors = ['blue', 'orange', 'green', 'purple', 'red', 'cyan', 'magenta']
+
+    # Create a dynamic color dictionary for all age groups found in the dataset
+    age_groups = pivot_df_normalized.columns
+    colors = {age_group: default_colors[i % len(default_colors)] for i, age_group in enumerate(age_groups)}
+
     # Create an empty list to hold traces (bars for each age group)
     traces = []
 
-    # Prepare hover text for each antibiotic and %R
-    hover_text = [
-        f'Antibiotic: {antibiotic}<br>Age Group: {age_group}<br>% of R: {round(percent, 2)}%'
-        for antibiotic, percent in zip(pivot_df_normalized.index, pivot_df_normalized[age_group])
-    ]
-
-    # Create the trace for the selected age group
-    traces.append(go.Bar(
-        x=pivot_df_normalized.index,  # Antibiotic names
-        y=pivot_df_normalized[age_group],  # Normalized %R
-        name=age_group,
-        marker_color='blue',  # Color for the selected age group
-        hoverinfo='text',
-        hovertext=hover_text,  # Use hovertext for hover info
-        showlegend=True,
-        hoverlabel=dict(namelength=-1)  # Allow full name in hover
-    ))
+    # Loop through each age group to create a stacked bar trace
+    for age_group in age_groups:
+        # Prepare hover text for each antibiotic and age group
+        hover_text = [
+            f'Antibiotic: {antibiotic}<br>Age Group: {age_group}<br>% of R: {round(percent, 2)}%'
+            for antibiotic, percent in zip(pivot_df_normalized.index, pivot_df_normalized[age_group])
+        ]
+        
+        # Add the trace for the age group
+        traces.append(go.Bar(
+            x=pivot_df_normalized.index,  # Antibiotic names
+            y=pivot_df_normalized[age_group],  # Normalized %R
+            name=age_group,
+            marker_color=colors[age_group],
+            hoverinfo='text',
+            hovertext=hover_text,  # Use hovertext for hover info
+            showlegend=True,
+            hoverlabel=dict(namelength=-1)  # Allow full name in hover
+        ))
 
     # Create the figure with the stacked bar chart
     fig = go.Figure(data=traces)
 
     # Update layout for title, labels, and other aesthetic details
     fig.update_layout(
-        title=f'Normalized R% by Antibiotic for Age Group: {age_group}',
+        title=f'Normalized R% by Antibiotic and Age Group in {selected_country}',
         xaxis_title='Antibiotic',
         yaxis_title='Normalized R%',
         barmode='stack',  # Stacked bar chart mode
