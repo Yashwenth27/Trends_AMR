@@ -324,76 +324,58 @@ def plot_age_group(organism,age):
     if organism=="Enterobacter spp":
         ecoli["Species"] = "Enterobacter spp"
     ec=ecoli.copy()
-    ec['Age Group'].value_counts()
-    clean_ec=ec[ec['Age Group'] != 'Unknown']
-    clean_ec_cols_plot2=list(clean_ec.columns[clean_ec.columns.str.contains("_I")])
-    ec_plot2 = clean_ec.melt(id_vars=['Age Group','Year'], 
-                    value_vars=clean_ec_cols_plot2,
-                    var_name='Antibiotic', value_name='Resistance')
-    ec_pv_plot2 = ec_plot2.pivot_table(index=['Age Group','Year','Antibiotic'], 
-                               columns='Resistance', 
-                               aggfunc='size', 
-                               fill_value=0).reset_index()
-    ec_pv_plot2['R_S_sum']=ec_pv_plot2['R']+ec_pv_plot2['S']
-    ec_pv_plot2_final=ec_pv_plot2[ec_pv_plot2['R_S_sum']>10]
-    dff = ec_pv_plot2_final
-    import pandas as pd
-    import plotly.graph_objects as go
+    df = df[df['Age Group'] != 'Unknown']
 
-    # Load the dataset
-    data = dff
+    # Filter data for the selected organism and age group
+    df_filtered = df[(df['Organism'] == organism) & (df['Age Group'] == age_group)]
 
-    # Remove '_I' from all antibiotic names
-    data['Antibiotic'] = data['Antibiotic'].str.replace('_I', '', regex=False)
+    # Calculate %R (resistance percentage)
+    df_filtered['%R'] = (df_filtered['R'] / df_filtered['R_S_sum']) * 100
 
-    # Remove Colistin antibiotic for all age groups
-    data = data[data['Antibiotic'] != 'Colistin']
+    # Remove '_I' from antibiotic names
+    df_filtered['Antibiotic'] = df_filtered['Antibiotic'].str.replace('_I', '')
 
-    
-    filtered_data = data[data['Age Group'] == age]
+    # Pivot the data to show antibiotics with %R for the selected age group
+    pivot_df = df_filtered.pivot(index='Antibiotic', columns='Age Group', values='%R').fillna(0)
 
-    # Check if there is data for this age group, if not, skip plotting
-    if filtered_data.empty:
-        print(f"No data available for the age group: {age}")
-    else:
-        # Calculate the percentage of resistance (R / (R + S) * 100) for each antibiotic
-        filtered_data['Resistance_Percent'] = (filtered_data['R'] / (filtered_data['R'] + filtered_data['S'])) * 100
+    # Normalize the data
+    pivot_df_normalized = (pivot_df.div(pivot_df.sum(axis=1), axis=0) * 100).fillna(0)
 
-        # Create the figure
-        fig = go.Figure()
+    # Create an empty list to hold traces (bars for each age group)
+    traces = []
 
-        # Add line plots for each antibiotic
-        for antibiotic in filtered_data['Antibiotic'].unique():
-            antibiotic_data = filtered_data[filtered_data['Antibiotic'] == antibiotic]
-            fig.add_trace(go.Scatter(
-                x=antibiotic_data['Year'], 
-                y=antibiotic_data['Resistance_Percent'], 
-                mode='lines+markers',
-                name=antibiotic,
-                hovertemplate=(
-                    'Year: %{x}<br>Resistance: %{y:.2f}%<br>Antibiotic: ' + antibiotic +
-                    '<br>------------------<br>' +  # Separation line added
-                    'R: %{customdata[0]}<br>S: %{customdata[1]}'
-                ),
-                customdata=antibiotic_data[['R', 'S']].values  # Include R and S in hover data
-            ))
+    # Prepare hover text for each antibiotic and %R
+    hover_text = [
+        f'Antibiotic: {antibiotic}<br>Age Group: {age_group}<br>% of R: {round(percent, 2)}%'
+        for antibiotic, percent in zip(pivot_df_normalized.index, pivot_df_normalized[age_group])
+    ]
 
-        # Update layout to ensure the x-axis uses whole numbers and the legend is placed on the right
-        fig.update_layout(
-            xaxis=dict(title='Year', tickmode='linear', tick0=filtered_data['Year'].min(), dtick=1),
-            yaxis_title='Resistance (%)',
-            title=f"Resistance (%) Over the Years - Age Group: {age}",
-            legend=dict(
-                x=1.05,  # Place the legend outside the plot
-                y=1,
-                bgcolor='rgba(255, 255, 255, 0)',  # Transparent background
-                bordercolor='black',
-                borderwidth=1
-            )
-        )
+    # Create the trace for the selected age group
+    traces.append(go.Bar(
+        x=pivot_df_normalized.index,  # Antibiotic names
+        y=pivot_df_normalized[age_group],  # Normalized %R
+        name=age_group,
+        marker_color='blue',  # Color for the selected age group
+        hoverinfo='text',
+        hovertext=hover_text,  # Use hovertext for hover info
+        showlegend=True,
+        hoverlabel=dict(namelength=-1)  # Allow full name in hover
+    ))
 
-        # Show the figure
-        return fig
+    # Create the figure with the stacked bar chart
+    fig = go.Figure(data=traces)
+
+    # Update layout for title, labels, and other aesthetic details
+    fig.update_layout(
+        title=f'Normalized R% by Antibiotic for Age Group: {age_group}',
+        xaxis_title='Antibiotic',
+        yaxis_title='Normalized R%',
+        barmode='stack',  # Stacked bar chart mode
+        hovermode='closest',  # Show hover info only for the closest sub-bar
+        legend_title_text='Age Group'
+    )
+
+    return fig
     
 def conplot_geo(organism):
     import pandas as pd
