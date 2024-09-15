@@ -93,13 +93,18 @@ with a:
             "Escherichia coli", "Enterococcus faecium", "Klebsiella pneumoniae",
             "Pseudomonas aeruginosa", "Staphylococcus aureus"
             ],key=1)
-            age_group = st.selectbox("Choose Age Group",["0 to 2 Years","3 to 12 Years","13 to 18 Years","19 to 64 Years","65 to 84 Years","85 and over"])
+            import chisquare as c
+            con = "India"
+            try:
+                con = st.selectbox("Choose Country",c.get_cons(org))
+            except:
+                pass
             if st.button("Display Plot",key=12):
                 import chisquare as c
-                fig= c.plot_age_group(org,age_group)
+                fig= c.plot_age_group(org,con)
         
                 with b:
-                    st.subheader(f"% of Resistance Over the Years - Age Group: {age_group}")
+                    st.subheader(f"% of Resistance Over the Years - Country: {con}")
                     st.plotly_chart(fig)
         with st.expander("% of Resistance over Country"):
             org = st.selectbox("Choose Organism",["Not Chosen","Acinetobacter baumannii", "Enterobacter spp",
