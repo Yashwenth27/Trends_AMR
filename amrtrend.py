@@ -113,7 +113,7 @@ with a:
             "Escherichia coli", "Enterococcus faecium", "Klebsiella pneumoniae",
             "Pseudomonas aeruginosa", "Staphylococcus aureus"
             ],key=1)
-            if org!="Not Chosen:
+            if org!="Not Chosen":
                 import chisquare as c
                 con = "India"
                 try:
