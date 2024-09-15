@@ -141,7 +141,6 @@ with a:
                 with b:
                     fig,dfff = c.plot_country_group(org,con)
                     st.plotly_chart(fig)
-                    st.write(dfff)
 
 
         with st.expander("Antibiotic Resistant Profile for Organism"):
@@ -156,7 +155,6 @@ with a:
                     with b:
                         st.plotly_chart(fig)
                         st.plotly_chart(fig1)
-                        st.write(dfplotc)
         
         with st.expander("Country Wise Resistant Profile"):
             org = st.selectbox("Choose Organism",["Not Chosen","Acinetobacter baumannii", "Enterobacter spp",
