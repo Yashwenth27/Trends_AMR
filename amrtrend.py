@@ -88,7 +88,7 @@ with a:
         
         st.subheader("Available Plots")
         st.write("---")
-        with st.expander("% of Resistance over Years"):
+        with st.expander("% of Resistance over Age Group"):
             org = st.selectbox("Choose Organism",["Not Chosen","Acinetobacter baumannii", "Enterobacter spp",
             "Escherichia coli", "Enterococcus faecium", "Klebsiella pneumoniae",
             "Pseudomonas aeruginosa", "Staphylococcus aureus"
