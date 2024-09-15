@@ -88,7 +88,7 @@ def plot_antibiotic_resistance(organism):
     fig.update_layout(
         title=f'Antibiotic Susceptibility Profile for {organism}',
         xaxis_title='Year',
-        yaxis_title='% of R',
+        yaxis_title='% of S',
         xaxis=dict(tickmode='linear'),
         legend_title='Antibiotics'
     )
